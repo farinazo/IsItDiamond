@@ -3,6 +3,9 @@
 > **Mod in-game nativo para theHunter: Call of the Wild que mostra a pontuação mínima de Diamante e nível máximo diretamente na luneta/binóculos ao avistar qualquer animal!**  
 > 100% auditado e validado para **todas as 19 reservas** e **130 animais** do jogo (incluindo as DLCs Salzwiesen Park, Sundarpatan e Intisuyu).
 
+[![Nexus Mods](https://img.shields.io/badge/Nexus_Mods-Em_Breve-orange?logo=nexusmods)](https://www.nexusmods.com/thehuntercallofthewild)  
+> 📢 **Aviso:** Em breve este mod estará disponível para download direto também no **Nexus Mods**!
+
 ---
 
 ## 🌟 O que o Mod faz?
