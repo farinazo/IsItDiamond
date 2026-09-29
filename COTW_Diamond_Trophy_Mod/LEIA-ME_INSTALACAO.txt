@@ -1,0 +1,92 @@
+================================================================================
+      theHunter: Call of the Wild - Mod de Troféus Diamante (Nativo) v2.0
+================================================================================
+
+Este mod altera nativamente o HUD de todos os 130 animais do jogo para exibir
+a pontuação de DIAMANTE e o NÍVEL MÁXIMO ao avistar pela luneta ou binóculo.
+
+--------------------------------------------------------------------------------
+ESCOLHA A SUA VERSÃO PREFERIDA (PASTA "OPCOES_MOD"):
+--------------------------------------------------------------------------------
+
+Dentro da pasta "OPCOES_MOD" você tem 3 opções prontas:
+
+1. OPÇÃO 1 - COMPACTO (PADRÃO JÁ INSTALADO NA PASTA "dropzone"):
+   Removeu a palavra "DIAMANTE:" para não alongar o nome na tela.
+   Exemplo:
+     VEADO-VERMELHO [251.07+ | Nvl 9 (GO)]
+     RED DEER [251.07+ | Lvl 9 (GO)]
+
+2. OPÇÃO 2 - LINHA ABAIXO DO NOME:
+   Usa quebra de linha (\n) para que a pontuação fique abaixo do nome do animal,
+   deixando o nome limpo na primeira linha e os requisitos na linha de baixo!
+   Exemplo:
+     VEADO-VERMELHO
+     [251.07+ | Nvl 9 (GO)]
+
+3. OPÇÃO 3 - ULTRA COMPACTO (SÓ A PONTUAÇÃO):
+   Apenas o valor mínimo do Diamante entre colchetes.
+   Exemplo:
+     VEADO-VERMELHO [251.07+]
+     RED DEER [251.07+]
+
+* Nota: A tag (GO) indica que o animal possui variante Great One (Fabled).
+
+--------------------------------------------------------------------------------
+COMO INSTALAR
+--------------------------------------------------------------------------------
+
+PASSO 1: Copiar a pasta "dropzone"
+  - Por padrão, a pasta "dropzone" da raiz já está com a OPÇÃO 1 (Compacta).
+  - Se você quiser a OPÇÃO 2 ou 3, basta abrir a pasta correspondente em "OPCOES_MOD"
+    e copiar a pasta "dropzone" de lá.
+  - Cole a pasta "dropzone" na pasta principal do seu jogo na Steam:
+    D:\SteamLibrary\steamapps\common\theHunterCotW\
+    (ou C:\Program Files (x86)\Steam\steamapps\common\theHunterCotW\)
+
+  O arquivo deve ficar exatamente em:
+  .../theHunterCotW/dropzone/settings/hp_settings/string_ids.stringlookup
+
+
+PASSO 2: Ativar as Opções de Inicialização na Steam
+  1. Abra a Steam -> Biblioteca.
+  2. Clique com o botão direito em "theHunter: Call of the Wild" -> Propriedades.
+  3. Na aba Geral, no campo OPÇÕES DE INICIALIZAÇÃO (Launch Options), cole:
+
+  --vfs-fs dropzone --vfs-archive patch_win64 --vfs-archive archives_win64 --vfs-fs .
+
+  4. Feche a janela de propriedades.
+
+
+PASSO 3: Iniciar o Jogo!
+  Abra o theHunter normalmente. Ao avistar qualquer animal, as informações
+  aparecerão diretamente no HUD.
+
+
+--------------------------------------------------------------------------------
+SOBRE A PONTUAÇÃO DINÂMICA ("123 - 145"):
+--------------------------------------------------------------------------------
+No theHunter COTW, a estimativa numérica "123 - 145" é calculada em tempo real
+por código C++ compilado dentro do executável (.exe) baseado no animal que você
+está olhando no mundo 3D. Mods de arquivo (.stringlookup / dropzone) não conseguem
+executar programação lógica "if/else" em tempo de execução para ler o número
+sorteado daquele animal específico.
+
+Por isso, colocar o valor de corte exato (ex: [251.07+]) no HUD do animal é a
+maneira mais eficiente e 100% segura (sem risco de ban ou crash por mexer no .exe):
+ao olhar para o HUD, você vê "Estimativa: 240 - 265" e logo ao lado "251.07+",
+sabendo no mesmo segundo que ele pode ser Diamante!
+
+Além disso, abra com 2 cliques o "Guia_Visual_Diamantes_COTW.html":
+Ele possui uma Calculadora Interativa onde você digita a estimativa que avistou
+e ele te diz na hora se é Diamante, Ouro ou Prata!
+
+
+--------------------------------------------------------------------------------
+COMO DESINSTALAR
+--------------------------------------------------------------------------------
+Basta apagar a pasta "dropzone" de dentro da pasta do theHunterCotW.
+Seus arquivos originais nunca são modificados.
+
+Boas caçadas! 💎🎯
+================================================================================

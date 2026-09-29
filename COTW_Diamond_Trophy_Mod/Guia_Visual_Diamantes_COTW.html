@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>theHunter: COTW - Guia de Diamantes & Troféus (Mod Oficial)</title>
+<style>
+  :root {
+    --bg-main: #0e1217;
+    --bg-card: #181f2a;
+    --bg-header: #121822;
+    --accent-orange: #e67e22;
+    --accent-diamond: #00d2d3;
+    --accent-gold: #f1c40f;
+    --accent-silver: #bdc3c7;
+    --accent-bronze: #e17055;
+    --accent-fabled: #9b59b6;
+    --text-main: #ecf0f1;
+    --text-muted: #8b9bb4;
+    --border: #263244;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  body { background: var(--bg-main); color: var(--text-main); line-height: 1.5; padding: 20px; }
+  .container { max-width: 1400px; margin: 0 auto; }
+  
+  header {
+    background: linear-gradient(135deg, #182232, #0d131d);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: hidden;
+  }
+  header::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; width: 300px; height: 100%;
+    background: radial-gradient(circle, rgba(0,210,211,0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  h1 { font-size: 28px; color: #fff; margin-bottom: 8px; display: flex; align-items: center; gap: 12px; }
+  h1 span.badge { background: var(--accent-orange); color: #fff; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; }
+  p.subtitle { color: var(--text-muted); font-size: 15px; margin-bottom: 15px; }
+  
+  .mod-banner {
+    background: rgba(0, 210, 211, 0.1);
+    border: 1px solid rgba(0, 210, 211, 0.3);
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .mod-banner .txt { font-size: 14px; color: #d0f7f7; }
+  .mod-banner .btn {
+    background: var(--accent-orange);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+  }
+  .mod-banner .btn:hover { background: #d35400; }
+  
+  /* Calculator Section */
+  .calc-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+  .calc-card h2 { font-size: 18px; margin-bottom: 12px; color: var(--accent-diamond); display: flex; align-items: center; gap: 8px; }
+  .calc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; align-items: end; }
+  .calc-input-group label { display: block; font-size: 13px; color: var(--text-muted); margin-bottom: 6px; font-weight: 600; }
+  .calc-input-group input, .calc-input-group select {
+    width: 100%;
+    padding: 10px 14px;
+    background: #0f141c;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+  }
+  .calc-input-group input:focus, .calc-input-group select:focus { border-color: var(--accent-diamond); }
+  .calc-result {
+    background: #0f141c;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 15px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .calc-result.diamond { color: var(--accent-diamond); border-color: var(--accent-diamond); }
+  .calc-result.gold { color: var(--accent-gold); border-color: var(--accent-gold); }
+  .calc-result.silver { color: var(--accent-silver); }
+  
+  /* Filters */
+  .controls-bar {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .search-box {
+    flex: 1;
+    min-width: 280px;
+    position: relative;
+  }
+  .search-box input {
+    width: 100%;
+    padding: 12px 16px 12px 42px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+  }
+  .search-box input:focus { border-color: var(--accent-orange); }
+  .search-box::before {
+    content: '🔍';
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    opacity: 0.6;
+  }
+  select.filter-select {
+    padding: 12px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+  }
+  select.filter-select:focus { border-color: var(--accent-orange); }
+  
+  /* Table & Grid */
+  .stats-counter { font-size: 13px; color: var(--text-muted); margin-bottom: 12px; }
+  .table-container {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow-x: auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+  table { width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; }
+  th {
+    background: var(--bg-header);
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 14px 18px;
+    border-bottom: 2px solid var(--border);
+    white-space: nowrap;
+  }
+  td { padding: 14px 18px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tr:hover td { background: rgba(255,255,255,0.03); }
+  
+  .animal-name { font-weight: 700; color: #fff; font-size: 15px; }
+  .animal-en { font-size: 12px; color: var(--text-muted); }
+  .class-pill {
+    background: #232c3a;
+    color: #e4e7eb;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .diamond-val {
+    color: var(--accent-diamond);
+    font-weight: 800;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .level-badge {
+    background: #1c2635;
+    border: 1px solid #32445a;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .fabled-badge {
+    background: rgba(155, 89, 182, 0.2);
+    border: 1px solid rgba(155, 89, 182, 0.5);
+    color: #d7bde2;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  .reserves-list { font-size: 12px; color: #a0aec0; max-width: 400px; line-height: 1.4; }
+  
+  /* Modal Installation */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(4px);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .modal-box h3 { font-size: 20px; color: #fff; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; }
+  .modal-close { background: none; border: none; color: var(--text-muted); font-size: 22px; cursor: pointer; }
+  .step { background: #0f141c; border-left: 4px solid var(--accent-orange); padding: 12px 15px; margin-bottom: 12px; border-radius: 0 6px 6px 0; }
+  .step strong { color: var(--accent-orange); display: block; margin-bottom: 4px; }
+  .code-snip { background: #000; padding: 8px 12px; border-radius: 4px; font-family: monospace; font-size: 13px; color: #00d2d3; margin: 6px 0; word-break: break-all; display: block; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>
+      theHunter: Call of the Wild
+      <span class="badge">Mod de Diamantes v1.0</span>
+    </h1>
+    <p class="subtitle">Guia Oficial & Mod Nativo de Troféus Diamante para todos os animais e reservas.</p>
+    
+    <div class="mod-banner">
+      <div class="txt">
+        🎮 <strong>Mod In-Game Ativo:</strong> Exibe a pontuação de Diamante e Nível Máximo na luneta/binóculo ao avistar qualquer animal!
+      </div>
+      <button class="btn" onclick="openModal()">📖 Como Instalar no Jogo</button>
+    </div>
+  </header>
+
+  <!-- Simulação / Calculadora Rápida -->
+  <div class="calc-card">
+    <h2>🎯 Verificador Rápido de Diamante no Avistamento</h2>
+    <div class="calc-grid">
+      <div class="calc-input-group">
+        <label for="calc-animal">Selecione o Animal:</label>
+        <select id="calc-animal" onchange="calcEvaluate()">
+          <!-- Populated by JS -->
+        </select>
+      </div>
+      <div class="calc-input-group">
+        <label for="calc-score">Pontuação Estimada (ex: 250 ou 250 - 270):</label>
+        <input type="text" id="calc-score" placeholder="Ex: 260" oninput="calcEvaluate()">
+      </div>
+      <div class="calc-input-group">
+        <label>Resultado da Avaliação:</label>
+        <div id="calc-result" class="calc-result">Selecione um animal e digite a pontuação</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controles de Busca e Filtro -->
+  <div class="controls-bar">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Buscar por nome em português, inglês ou classe..." oninput="filterAnimals()">
+    </div>
+    
+    <select id="reserve-filter" class="filter-select" onchange="filterAnimals()">
+      <option value="">Todas as Reservas (19 Reservas)</option>
+    </select>
+
+    <select id="class-filter" class="filter-select" onchange="filterAnimals()">
+      <option value="">Todas as Classes (1 a 9)</option>
+      <option value="1">Classe 1 (Pequeno porte / Aves)</option>
+      <option value="2">Classe 2 (Raposas, etc.)</option>
+      <option value="3">Classe 3 (Veados pequenos, etc.)</option>
+      <option value="4">Classe 4 (Javalis, etc.)</option>
+      <option value="5">Classe 5 (Gamos, etc.)</option>
+      <option value="6">Classe 6 (Veado-vermelho, etc.)</option>
+      <option value="7">Classe 7 (Ursos, etc.)</option>
+      <option value="8">Classe 8 (Alces, etc.)</option>
+      <option value="9">Classe 9 (Grandes predadores / Bisões)</option>
+    </select>
+  </div>
+
+  <div class="stats-counter" id="stats-counter">Exibindo 130 animais</div>
+
+  <!-- Tabela de Animais -->
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Animal (Português / Inglês)</th>
+          <th>Classe</th>
+          <th>Nível Máx.</th>
+          <th>Pontuação Mín. Diamante</th>
+          <th>No Mod In-Game</th>
+          <th>Reservas Onde Encontrar</th>
+        </tr>
+      </thead>
+      <tbody id="animals-tbody">
+        <!-- Rows inserted by JS -->
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- Modal Instruções de Instalação -->
+<div class="modal-overlay" id="installModal">
+  <div class="modal-box">
+    <h3>
+      <span>🛠️ Instruções de Instalação do Mod</span>
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+    </h3>
+    
+    <div class="step">
+      <strong>Passo 1: Copiar a pasta 'dropzone'</strong>
+      Copie a pasta <code>dropzone</code> que acompanha este mod para a pasta raiz onde o jogo está instalado na Steam:
+      <code class="code-snip">C:\SteamLibrary\steamapps\common\theHunterCotW\</code>
+      <small style="color:var(--text-muted)">O arquivo ficará em: ...\theHunterCotW\dropzone\settings\hp_settings\string_ids.stringlookup</small>
+    </div>
+
+    <div class="step">
+      <strong>Passo 2: Ativar Parâmetro de Inicialização na Steam</strong>
+      1. Abra a sua <strong>Steam</strong> e vá na <strong>Biblioteca</strong>.<br>
+      2. Clique com o <strong>botão direito</strong> em <strong>theHunter: Call of the Wild</strong> e selecione <strong>Propriedades</strong>.<br>
+      3. Na aba <strong>Geral</strong>, localize o campo <strong>Opções de Inicialização</strong> (Launch Options).<br>
+      4. Cole o seguinte comando exatamente como abaixo:
+      <code class="code-snip">--vfs-fs dropzone --vfs-archive patch_win64 --vfs-archive archives_win64 --vfs-fs .</code>
+    </div>
+
+    <div class="step">
+      <strong>Passo 3: Jogar e Aproveitar!</strong>
+      Abra o jogo. Ao mirar em qualquer animal com binóculo ou luneta, o nome exibirá automaticamente:
+      <code class="code-snip">VEADO-VERMELHO [DIAMANTE: 251.07+ | Nvl 9 (GO)]</code>
+    </div>
+
+    <div class="step">
+      <strong>Como Desinstalar:</strong>
+      Basta apagar a pasta <code>dropzone</code> de dentro da pasta do jogo ou remover o comando das opções de inicialização na Steam.
+    </div>
+
+    <button class="btn" style="width:100%; padding:12px; margin-top:10px;" onclick="closeModal()">Entendido!</button>
+  </div>
+</div>
+
+<script>
+const animalsData = [{"name_en": "Moose", "hash": 4205700664, "orig_en": "MOOSE", "orig_pt": "ALCE", "class": 8, "max_level": "5 (10 Fabled)", "diamond_min": 274.99, "reserves": ["Layton Lake District", "Medved-Taiga National Park", "Yukon Valley", "Revontuli Coast", "New England Mountains", "Askiy Ridge Hunting Preserve"]}, {"name_en": "South American Tapir", "hash": 280076940, "orig_en": "SOUTH AMERICAN TAPIR", "orig_pt": "ANTA-SUL-AMERICANA", "class": 6, "max_level": "9", "diamond_min": 144.0, "reserves": ["Intisuyu"]}, {"name_en": "Pronghorn", "hash": 657009845, "orig_en": "PRONGHORN", "orig_pt": "ANTILOCAPRA", "class": 3, "max_level": "5", "diamond_min": 108.0, "reserves": ["Silver Ridge Peaks", "Rancho del Arroyo", "Askiy Ridge Hunting Preserve"]}, {"name_en": "Blackbuck", "hash": 1458078561, "orig_en": "BLACKBUCK", "orig_pt": "ANTÍLOPE-NEGRO", "class": 3, "max_level": "5", "diamond_min": 132.26, "reserves": ["Parque Fernando", "Sundarpatan"]}, {"name_en": "Banteng", "hash": 2119612362, "orig_en": "BANTENG", "orig_pt": "BANTENGUE", "class": 9, "max_level": "5", "diamond_min": 137.0, "reserves": ["Emerald Coast"]}, {"name_en": "Wood Bison", "hash": 1012737933, "orig_en": "WOOD BISON", "orig_pt": "BISÃO DA FLORESTA", "class": 9, "max_level": "5", "diamond_min": 158.0, "reserves": ["Askiy Ridge Hunting Preserve"]}, {"name_en": "Plains Bison", "hash": 18883433, "orig_en": "PLAINS BISON", "orig_pt": "BISÃO-DAS-PLANÍCIES", "class": 9, "max_level": "5", "diamond_min": 183.5, "reserves": ["Yukon Valley", "Silver Ridge Peaks"]}, {"name_en": "European Bison", "hash": 3778341444, "orig_en": "EUROPEAN BISON", "orig_pt": "BISÃO-EUROPEU", "class": 9, "max_level": "5", "diamond_min": 127.62, "reserves": ["Hirschfelden Hunting Reserve"]}, {"name_en": "Cape Buffalo", "hash": 1458396849, "orig_en": "CAPE BUFFALO", "orig_pt": "BÚFALO-AFRICANO", "class": 9, "max_level": "9", "diamond_min": 151.35, "reserves": ["Vurhonga Savanna"]}, {"name_en": "Water Buffalo", "hash": 3334704880, "orig_en": "WATER BUFFALO", "orig_pt": "BÚFALO-D’ÁGUA", "class": 9, "max_level": "9", "diamond_min": 167.54, "reserves": ["Parque Fernando", "Sundarpatan"]}, {"name_en": "Mountain Goat", "hash": 3967737223, "orig_en": "MOUNTAIN GOAT", "orig_pt": "CABRA-DA-MONTANHA", "class": 4, "max_level": "5", "diamond_min": 83.2, "reserves": ["Silver Ridge Peaks", "Askiy Ridge Hunting Preserve"]}, {"name_en": "Springbok", "hash": 2932471265, "orig_en": "SPRINGBOK", "orig_pt": "CABRA-DE-LEQUE", "class": 3, "max_level": "5", "diamond_min": 78.55, "reserves": ["Vurhonga Savanna"]}, {"name_en": "Feral Goat", "hash": 2155972500, "orig_en": "FERAL GOAT", "orig_pt": "CABRA-SELVAGEM", "class": 3, "max_level": "5", "diamond_min": 208.71, "reserves": ["Te Awaroa National Park", "Emerald Coast", "Tòrr nan Sithean"]}, {"name_en": "Collared Peccary", "hash": 3305153906, "orig_en": "COLLARED PECCARY", "orig_pt": "CAITITU", "class": 3, "max_level": "5", "diamond_min": 144.25, "reserves": ["Parque Fernando", "Rancho del Arroyo", "Intisuyu"]}, {"name_en": "Chamois", "hash": 374167256, "orig_en": "CHAMOIS", "orig_pt": "CAMURÇA", "class": 3, "max_level": "5", "diamond_min": 58.0, "reserves": ["Te Awaroa National Park"]}, {"name_en": "Eastern Grey Kangaroo", "hash": 2568314351, "orig_en": "EASTERN GRAY KANGAROO", "orig_pt": "CANGURU-CINZA-ORIENTAL", "class": 4, "max_level": "9", "diamond_min": 492.0, "reserves": ["Emerald Coast"]}, {"name_en": "Capybara", "hash": 414274947, "orig_en": "CAPYBARA", "orig_pt": "CAPIVARA", "class": 4, "max_level": "5", "diamond_min": 66.5, "reserves": ["Intisuyu"]}, {"name_en": "Woodland Caribou", "hash": 3927060704, "orig_en": "WOODLAND CARIBOU", "orig_pt": "CARIBU DA FLORESTA BOREAL", "class": 6, "max_level": "5", "diamond_min": 430.23, "reserves": ["Askiy Ridge Hunting Preserve"]}, {"name_en": "Caribou", "hash": 3930053258, "orig_en": "GRANT CARIBOU", "orig_pt": "CARIBU DE GRANT", "class": 6, "max_level": "5", "diamond_min": 430.23, "reserves": ["Yukon Valley"]}, {"name_en": "Blue Sheep", "hash": 1105031565, "orig_en": "BLUE SHEEP", "orig_pt": "CARNEIRO-AZUL", "class": 4, "max_level": "5", "diamond_min": 154.08, "reserves": ["Sundarpatan"]}, {"name_en": "Bighorn Sheep", "hash": 109321230, "orig_en": "ROCKY MOUNTAIN BIGHORN SHEEP", "orig_pt": "CARNEIRO-DAS-MONTANHAS-ROCHOSAS", "class": 5, "max_level": "5", "diamond_min": 196.93, "reserves": ["Silver Ridge Peaks", "Rancho del Arroyo", "Askiy Ridge Hunting Preserve"]}, {"name_en": "North American Beaver", "hash": 1684250325, "orig_en": "NORTH AMERICAN BEAVER", "orig_pt": "CASTOR-AMERICANO", "class": 2, "max_level": "5", "diamond_min": 30.4, "reserves": ["Askiy Ridge Hunting Preserve"]}, {"name_en": "Siberian Musk Deer", "hash": 2311733206, "orig_en": "SIBERIAN MUSK DEER", "orig_pt": "CERVO-ALMISCARADO", "class": 2, "max_level": "3", "diamond_min": 249.0, "reserves": ["Medved-Taiga National Park"]}, {"name_en": "Monitoban Elk", "hash": 2530702743, "orig_en": "MANITOBAN ELK", "orig_pt": "CERVO-CANADENSE", "class": 7, "max_level": "5", "diamond_min": 457.56, "reserves": ["Askiy Ridge Hunting Preserve"]}, {"name_en": "Javen Rusa", "hash": 3860109856, "orig_en": "JAVAN RUSA", "orig_pt": "CERVO-DE-TIMOR", "class": 5, "max_level": "5", "diamond_min": 148.78, "reserves": ["Emerald Coast"]}, {"name_en": "Barasingha", "hash": 153110806, "orig_en": "BARASINGHA", "orig_pt": "CERVO-DO-PÂNTANO", "class": 6, "max_level": "5", "diamond_min": 226.05, "reserves": ["Sundarpatan"]}, {"name_en": "Hog Deer", "hash": 1188738270, "orig_en": "HOG DEER", "orig_pt": "CERVO-PORCO-INDIANO", "class": 3, "max_level": "5", "diamond_min": 108.68, "reserves": ["Emerald Coast"]}, {"name_en": "Sika Deer", "hash": 3854463892, "orig_en": "SIKA DEER", "orig_pt": "CERVO-SIKA", "class": 4, "max_level": "5", "diamond_min": 198.74, "reserves": ["Te Awaroa National Park", "Tòrr nan Sithean"]}, {"name_en": "Side-Striped Jackal", "hash": 1466972895, "orig_en": "SIDE-STRIPED JACKAL", "orig_pt": "CHACAL-LISTRADO", "class": 2, "max_level": "9", "diamond_min": 29.1, "reserves": ["Vurhonga Savanna"]}, {"name_en": "Axis Deer", "hash": 3773094057, "orig_en": "AXIS DEER", "orig_pt": "CHITAL", "class": 3, "max_level": "5", "diamond_min": 217.29, "reserves": ["Parque Fernando", "Emerald Coast"]}, {"name_en": "Stubble Quail", "hash": 3226799552, "orig_en": "STUBBLE QUAIL", "orig_pt": "CODORNA-DOS-RESTOLHOS", "class": 1, "max_level": "3", "diamond_min": 126.0, "reserves": ["Emerald Coast"]}, {"name_en": "Bobwhite Quail", "hash": 1286837284, "orig_en": "BOBWHITE QUAIL", "orig_pt": "CODORNIZ-DA-VIRGÍNIA", "class": 1, "max_level": "3", "diamond_min": 238.0, "reserves": ["Mississippi Acres Preserve", "New England Mountains"]}, {"name_en": "Eastern Cottontail Rabbit", "hash": 2396550170, "orig_en": "EASTERN COTTONTAIL RABBIT", "orig_pt": "COELHO-DA-FLÓRIDA", "class": 1, "max_level": "3", "diamond_min": 1.97, "reserves": ["Mississippi Acres Preserve", "New England Mountains"]}, {"name_en": "European Rabbit", "hash": 1145410275, "orig_en": "EUROPEAN RABBIT", "orig_pt": "COELHO-EUROPEU", "class": 1, "max_level": "3", "diamond_min": 2.42, "reserves": ["Hirschfelden Hunting Reserve", "Te Awaroa National Park", "Salzwiesen Park"]}, {"name_en": "Coyote", "hash": 2522926452, "orig_en": "COYOTE", "orig_pt": "COIOTE", "class": 2, "max_level": "9", "diamond_min": 56.87, "reserves": ["Layton Lake District", "Rancho del Arroyo", "New England Mountains"]}, {"name_en": "Roe Deer", "hash": 2517363987, "orig_en": "ROE DEER", "orig_pt": "CORÇA", "class": 3, "max_level": "3", "diamond_min": 81.86, "reserves": ["Hirschfelden Hunting Reserve", "Cuatro Colinas Game Reserve", "Tòrr nan Sithean"]}, {"name_en": "Saltwater Crocodile", "hash": 2731264150, "orig_en": "SALTWATER CROCODILE", "orig_pt": "CROCODILO-DE-ÁGUA-SALGADA", "class": 8, "max_level": "9", "diamond_min": 1015.0, "reserves": ["Emerald Coast"]}, {"name_en": "Lesser Kudu", "hash": 1333330573, "orig_en": "LESSER KUDU", "orig_pt": "CUDO-MENOR", "class": 4, "max_level": "5", "diamond_min": 151.64, "reserves": ["Vurhonga Savanna"]}, {"name_en": "Raccoon Dog", "hash": 551670028, "orig_en": "RACCOON DOG", "orig_pt": "CÃO-GUAXINIM", "class": 2, "max_level": "9", "diamond_min": 9.29, "reserves": ["Revontuli Coast", "Salzwiesen Park"]}, {"name_en": "Ring-Necked Pheasant", "hash": 2733053912, "orig_en": "RING-NECKED PHEASANT", "orig_pt": "FAISÃO DE PESCOÇO ANELADO", "class": 1, "max_level": "3 (10 Fabled)", "diamond_min": 20.3, "reserves": ["Cuatro Colinas Game Reserve", "Rancho del Arroyo", "New England Mountains", "Salzwiesen Park", "Askiy Ridge Hunting Preserve", "Tòrr nan Sithean"]}, {"name_en": "Ringed-Neck Pheasant", "hash": 2733053912, "orig_en": "RING-NECKED PHEASANT", "orig_pt": "FAISÃO DE PESCOÇO ANELADO", "class": 1, "max_level": "3", "diamond_min": 20.29, "reserves": ["Hirschfelden Hunting Reserve"]}, {"name_en": "Gadwall", "hash": 660796668, "orig_en": "GADWALL", "orig_pt": "FRISADA", "class": 1, "max_level": "3", "diamond_min": 1050.0, "reserves": ["Salzwiesen Park"]}, {"name_en": "Greater Grison", "hash": 1149364178, "orig_en": "GREATER GRISON", "orig_pt": "FURÃO-GRANDE", "class": 1, "max_level": "5", "diamond_min": 356.0, "reserves": ["Intisuyu"]}, {"name_en": "Hazel Grouse", "hash": 198354833, "orig_en": "HAZEL GROUSE", "orig_pt": "GALINHA-MONTÊS", "class": 1, "max_level": "3", "diamond_min": 435.0, "reserves": ["Revontuli Coast"]}, {"name_en": "Eurasian Woodcock", "hash": 3564841054, "orig_en": "EURASIAN WOODCOCK", "orig_pt": "GALINHOLA-EURASIÁTICA", "class": 1, "max_level": "3", "diamond_min": 41.03, "reserves": ["Tòrr nan Sithean"]}, {"name_en": "Fallow Deer", "hash": 2190292960, "orig_en": "FALLOW DEER", "orig_pt": "GAMO", "class": 4, "max_level": "5 (10 Fabled)", "diamond_min": 249.99, "reserves": ["Hirschfelden Hunting Reserve", "Te Awaroa National Park", "Emerald Coast", "Tòrr nan Sithean"]}, {"name_en": "Greylag Goose", "hash": 3656766348, "orig_en": "GREYLAG GOOSE", "orig_pt": "GANSO-BRAVO", "class": 1, "max_level": "5", "diamond_min": 3.85, "reserves": ["Revontuli Coast", "Sundarpatan", "Salzwiesen Park"]}, {"name_en": "Tundra Bean Goose", "hash": 3496248205, "orig_en": "TUNDRA BEAN GOOSE", "orig_pt": "GANSO-CAMPESTRE-DA-TUNDRA", "class": 1, "max_level": "5", "diamond_min": 3.16, "reserves": ["Revontuli Coast", "Salzwiesen Park"]}, {"name_en": "Wildebeest", "hash": 1660241597, "orig_en": "BLUE WILDEBEEST", "orig_pt": "GNU-DE-CAUDA-PRETA", "class": 6, "max_level": "5", "diamond_min": 37.69, "reserves": ["Vurhonga Savanna"]}, {"name_en": "Common Raccoon", "hash": 2788219112, "orig_en": "COMMON RACCOON", "orig_pt": "GUAXINIM COMUM", "class": 2, "max_level": "5", "diamond_min": 12.0, "reserves": ["Mississippi Acres Preserve", "New England Mountains", "Salzwiesen Park"]}, {"name_en": "Black Grouse", "hash": 2884963774, "orig_en": "Black Grouse", "orig_pt": "Galo-lira", "class": 1, "max_level": "3", "diamond_min": 120.0, "reserves": ["Revontuli Coast", "Salzwiesen Park", "Tòrr nan Sithean"]}, {"name_en": "Magpie Goose", "hash": 2941624306, "orig_en": "Magpie Goose", "orig_pt": "Ganso-Pega", "class": 1, "max_level": "5", "diamond_min": 3.02, "reserves": ["Emerald Coast"]}, {"name_en": "Snow Goose", "hash": 1074029479, "orig_en": "Snow goose", "orig_pt": "Ganso-das-neves", "class": 1, "max_level": "5", "diamond_min": 3.85, "reserves": ["Askiy Ridge Hunting Preserve"]}, {"name_en": "Canada Goose", "hash": 215292526, "orig_en": "Canada goose", "orig_pt": "Ganso-do-Canadá", "class": 1, "max_level": "5", "diamond_min": 8.59, "reserves": ["Hirschfelden Hunting Reserve", "Yukon Valley", "Revontuli Coast", "Askiy Ridge Hunting Preserve"]}, {"name_en": "Wild Yak", "hash": 637408862, "orig_en": "WILD YAK", "orig_pt": "IAQUE SELVAGEM", "class": 9, "max_level": "9", "diamond_min": 273.23, "reserves": ["Sundarpatan"]}, {"name_en": "American Alligator", "hash": 3550437282, "orig_en": "AMERICAN ALLIGATOR", "orig_pt": "JACARÉ-AMERICANO", "class": 7, "max_level": "9", "diamond_min": 492.0, "reserves": ["Mississippi Acres Preserve"]}, {"name_en": "Black Caiman", "hash": 2823143977, "orig_en": "BLACK CAIMAN", "orig_pt": "JACARÉ-AÇU", "class": 7, "max_level": "9", "diamond_min": 468.0, "reserves": ["Intisuyu"]}, {"name_en": "Ocelot", "hash": 1474107190, "orig_en": "OCELOT", "orig_pt": "JAGUATIRICA", "class": 2, "max_level": "9", "diamond_min": 27.68, "reserves": ["Intisuyu"]}, {"name_en": "Wild Boar", "hash": 1670486158, "orig_en": "WILD BOAR", "orig_pt": "JAVALI", "class": 5, "max_level": "5", "diamond_min": 144.25, "reserves": ["Hirschfelden Hunting Reserve", "Medved-Taiga National Park", "Cuatro Colinas Game Reserve", "Tòrr nan Sithean"]}, {"name_en": "Wild Hog", "hash": 2778944235, "orig_en": "WILD HOG", "orig_pt": "JAVALI SELVAGEM", "class": 5, "max_level": "5", "diamond_min": 144.25, "reserves": ["Mississippi Acres Preserve"]}, {"name_en": "Warthog", "hash": 1641121368, "orig_en": "WARTHOG", "orig_pt": "JAVALI-AFRICANO", "class": 4, "max_level": "5", "diamond_min": 58.18, "reserves": ["Vurhonga Savanna"]}, {"name_en": "Rock Ptarmigan", "hash": 1559190513, "orig_en": "ROCK PTARMIGAN", "orig_pt": "LAGÓPODE-BRANCO", "class": 1, "max_level": "3", "diamond_min": 709.0, "reserves": ["Revontuli Coast"]}, {"name_en": "Willow Ptarmigan", "hash": 390282205, "orig_en": "WILLOW PTARMIGAN", "orig_pt": "LAGÓPODE-ESCOCÊS", "class": 1, "max_level": "3", "diamond_min": 772.0, "reserves": ["Revontuli Coast"]}, {"name_en": "Antelope Jackrabbit", "hash": 4112088419, "orig_en": "ANTELOPE JACKRABBIT", "orig_pt": "LEBRE-ANTÍLOPE", "class": 1, "max_level": "3", "diamond_min": 6.33, "reserves": ["Rancho del Arroyo"]}, {"name_en": "Mountain Hare", "hash": 1275024827, "orig_en": "MOUNTAIN HARE", "orig_pt": "LEBRE-DA-EURÁSIA", "class": 1, "max_level": "3", "diamond_min": 5.6, "reserves": ["Revontuli Coast", "Tòrr nan Sithean"]}, {"name_en": "White-Tailed Jackrabbit", "hash": 2132195963, "orig_en": "WHITE-TAILED JACKRABBIT", "orig_pt": "LEBRE-DE-CAUDA-BRANCA", "class": 1, "max_level": "3", "diamond_min": 6.33, "reserves": ["Layton Lake District"]}, {"name_en": "Scrub Hare", "hash": 2655312513, "orig_en": "SCRUB HARE", "orig_pt": "LEBRE-DE-NUCA-DOURADA", "class": 1, "max_level": "3", "diamond_min": 5.37, "reserves": ["Vurhonga Savanna"]}, {"name_en": "European Hare", "hash": 2016537873, "orig_en": "EUROPEAN HARE", "orig_pt": "LEBRE-EUROPEIA", "class": 1, "max_level": "3", "diamond_min": 6.5, "reserves": ["Cuatro Colinas Game Reserve"]}, {"name_en": "Woolly Hare", "hash": 151169491, "orig_en": "WOOLLY HARE", "orig_pt": "LEBRE-PELUDA", "class": 1, "max_level": "3", "diamond_min": 3.28, "reserves": ["Sundarpatan"]}, {"name_en": "Snow Leopard", "hash": 1547685063, "orig_en": "SNOW LEOPARD", "orig_pt": "LEOPARDO-DAS-NEVES", "class": 4, "max_level": "9", "diamond_min": 29.0, "reserves": ["Sundarpatan"]}, {"name_en": "Lion", "hash": 2250985392, "orig_en": "LION", "orig_pt": "LEÃO", "class": 9, "max_level": "9", "diamond_min": 48.5, "reserves": ["Vurhonga Savanna"]}, {"name_en": "Eurasian Lynx", "hash": 810381594, "orig_en": "EURASIAN LYNX", "orig_pt": "LINCE-EUROASIÁTICO", "class": 3, "max_level": "9", "diamond_min": 27.68, "reserves": ["Medved-Taiga National Park", "Revontuli Coast"]}, {"name_en": "Bobcat", "hash": 1641191030, "orig_en": "BOBCAT", "orig_pt": "LINCE-PARDO", "class": 2, "max_level": "9", "diamond_min": 27.68, "reserves": ["New England Mountains"]}, {"name_en": "Mexican Bobcat", "hash": 980043984, "orig_en": "MEXICAN BOBCAT", "orig_pt": "LINCE-PARDO DO MÉXICO", "class": 2, "max_level": "9", "diamond_min": 27.68, "reserves": ["Rancho del Arroyo"]}, {"name_en": "Grey Wolf", "hash": 3427004445, "orig_en": "GRAY WOLF", "orig_pt": "LOBO-CINZENTO", "class": 6, "max_level": "9", "diamond_min": 39.0, "reserves": ["Medved-Taiga National Park", "Yukon Valley", "Askiy Ridge Hunting Preserve"]}, {"name_en": "Iberian Wolf", "hash": 245932887, "orig_en": "IBERIAN WOLF", "orig_pt": "LOBO-IBÉRICO", "class": 6, "max_level": "9", "diamond_min": 39.0, "reserves": ["Cuatro Colinas Game Reserve"]}, {"name_en": "Northern Pintail", "hash": 2756457758, "orig_en": "NORTHERN PINTAIL", "orig_pt": "MARRECA-ARREBIO", "class": 1, "max_level": "3", "diamond_min": 1040.0, "reserves": ["Askiy Ridge Hunting Preserve"]}, {"name_en": "Green Winged Teal", "hash": 3392028441, "orig_en": "GREEN-WINGED TEAL", "orig_pt": "MARREQUINHA-AMERICANA", "class": 1, "max_level": "3", "diamond_min": 480.0, "reserves": ["New England Mountains"]}, {"name_en": "Green-Winged Teal", "hash": 3392028441, "orig_en": "GREEN-WINGED TEAL", "orig_pt": "MARREQUINHA-AMERICANA", "class": 1, "max_level": "3", "diamond_min": 480.0, "reserves": ["Mississippi Acres Preserve"]}, {"name_en": "Eurasian Pine Marten", "hash": 4224163964, "orig_en": "EURASIAN PINE MARTEN", "orig_pt": "MARTA-EURASIÁTICA", "class": 1, "max_level": "5", "diamond_min": 208.0, "reserves": ["Tòrr nan Sithean"]}, {"name_en": "Iberian Mouflon", "hash": 1614279117, "orig_en": "IBERIAN MOUFLON", "orig_pt": "MOUFLÃO-IBÉRICO", "class": 4, "max_level": "5", "diamond_min": 179.56, "reserves": ["Cuatro Colinas Game Reserve"]}, {"name_en": "Northern Red Muntjac", "hash": 2929828938, "orig_en": "NORTHERN RED MUNTJAC", "orig_pt": "MUNTÍACO-VERMELHO-DO-NORTE", "class": 2, "max_level": "5", "diamond_min": 35.24, "reserves": ["Sundarpatan"]}, {"name_en": "Cinnamon Teal", "hash": 2812110826, "orig_en": "Cinnamon Teal", "orig_pt": "Marreca-carijó", "class": 1, "max_level": "3", "diamond_min": 4.6, "reserves": ["Parque Fernando", "Intisuyu"]}, {"name_en": "Eurasian Teal", "hash": 1974798968, "orig_en": "Eurasian Teal", "orig_pt": "Marrequinha comum", "class": 1, "max_level": "3", "diamond_min": 354.0, "reserves": ["Revontuli Coast", "Salzwiesen Park"]}, {"name_en": "Nilgai", "hash": 68705222, "orig_en": "NILGAI", "orig_pt": "NILGÓ", "class": 6, "max_level": "5", "diamond_min": 94.89, "reserves": ["Sundarpatan"]}, {"name_en": "Mountain Lion", "hash": 3403593812, "orig_en": "MOUNTAIN LION", "orig_pt": "ONÇA-PARDA", "class": 5, "max_level": "9", "diamond_min": 39.0, "reserves": ["Silver Ridge Peaks"]}, {"name_en": "Puma", "hash": 1497459540, "orig_en": "PUMA", "orig_pt": "ONÇA-PARDA", "class": 5, "max_level": "9", "diamond_min": 39.0, "reserves": ["Parque Fernando", "Intisuyu"]}, {"name_en": "Jaguar", "hash": 792198770, "orig_en": "JAGUAR", "orig_pt": "ONÇA-PINTADA", "class": 6, "max_level": "9 (10 Fabled)", "diamond_min": 43.75, "reserves": ["Intisuyu"]}, {"name_en": "Harlequin Duck", "hash": 3844818088, "orig_en": "HARLEQUIN DUCK", "orig_pt": "PATO-ARLEQUIM", "class": 1, "max_level": "3", "diamond_min": 7.2, "reserves": ["Yukon Valley"]}, {"name_en": "Wood Duck", "hash": 3935394829, "orig_en": "WOOD DUCK", "orig_pt": "PATO-CAROLINO", "class": 1, "max_level": "3", "diamond_min": 670.0, "reserves": ["Askiy Ridge Hunting Preserve"]}, {"name_en": "Mallard", "hash": 3308951053, "orig_en": "MALLARD", "orig_pt": "PATO-REAL", "class": 1, "max_level": "3", "diamond_min": 19.61, "reserves": ["Layton Lake District", "Te Awaroa National Park", "Revontuli Coast", "New England Mountains", "Salzwiesen Park", "Askiy Ridge Hunting Preserve"]}, {"name_en": "Merriam Turkey", "hash": 1242189471, "orig_en": "MERRIAM TURKEY", "orig_pt": "PERU MERRIAMI", "class": 1, "max_level": "3", "diamond_min": 4.62, "reserves": ["Layton Lake District", "Silver Ridge Peaks"]}, {"name_en": "Rio Grande Turkey", "hash": 1958373742, "orig_en": "RIO GRANDE TURKEY", "orig_pt": "PERU SELVAGEM DO RIO GRANDE", "class": 1, "max_level": "3", "diamond_min": 4.62, "reserves": ["Rancho del Arroyo"]}, {"name_en": "Eastern Wild Turkey", "hash": 4026799646, "orig_en": "EASTERN WILD TURKEY", "orig_pt": "PERU-SELVAGEM", "class": 1, "max_level": "3", "diamond_min": 4.62, "reserves": ["Mississippi Acres Preserve", "New England Mountains"]}, {"name_en": "Feral Pig", "hash": 3516819936, "orig_en": "FERAL PIG", "orig_pt": "PORCO SELVAGEM", "class": 5, "max_level": "5", "diamond_min": 144.25, "reserves": ["Te Awaroa National Park", "Emerald Coast"]}, {"name_en": "Goldeneye", "hash": 3572389677, "orig_en": "Goldeneye", "orig_pt": "Pato-olho-d'ouro", "class": 1, "max_level": "3", "diamond_min": 1230.0, "reserves": ["Revontuli Coast", "New England Mountains", "Salzwiesen Park"]}, {"name_en": "Turkey", "hash": 4225499322, "orig_en": "Wild turkey", "orig_pt": "Peru-selvagem", "class": 1, "max_level": "3", "diamond_min": 4.62, "reserves": ["Te Awaroa National Park"]}, {"name_en": "Eurasian Wigeon", "hash": 4041048301, "orig_en": "Eurasian Wigeon", "orig_pt": "Piadeira", "class": 1, "max_level": "3", "diamond_min": 905.0, "reserves": ["Vurhonga Savanna", "Revontuli Coast", "Salzwiesen Park", "Tòrr nan Sithean"]}, {"name_en": "Western Mountain Coati", "hash": 1558721172, "orig_en": "WESTERN MOUNTAIN COATI", "orig_pt": "QUATI-DAS-MONTANHAS-OCIDENTAIS", "class": 1, "max_level": "3", "diamond_min": 1.45, "reserves": ["Intisuyu"]}, {"name_en": "Grey Fox", "hash": 3941365235, "orig_en": "GRAY FOX", "orig_pt": "RAPOSA-CINZENTA", "class": 2, "max_level": "9", "diamond_min": 6.43, "reserves": ["Mississippi Acres Preserve", "New England Mountains"]}, {"name_en": "Tibetan Fox", "hash": 3556481079, "orig_en": "TIBETAN FOX", "orig_pt": "RAPOSA-TIBETANA", "class": 2, "max_level": "9", "diamond_min": 6.37, "reserves": ["Sundarpatan"]}, {"name_en": "Red Fox", "hash": 4035089318, "orig_en": "RED FOX", "orig_pt": "RAPOSA-VERMELHA", "class": 2, "max_level": "9", "diamond_min": 14.05, "reserves": ["Hirschfelden Hunting Reserve", "Yukon Valley", "New England Mountains", "Emerald Coast", "Salzwiesen Park", "Tòrr nan Sithean"]}, {"name_en": "Reindeer", "hash": 2478618166, "orig_en": "MOUNTAIN REINDEER", "orig_pt": "RENA DA MONTANHA", "class": 6, "max_level": "5", "diamond_min": 430.23, "reserves": ["Medved-Taiga National Park"]}, {"name_en": "Sambar Deer", "hash": 3984384866, "orig_en": "SAMBAR", "orig_pt": "SAMBAR", "class": 7, "max_level": "5", "diamond_min": 166.24, "reserves": ["Emerald Coast"]}, {"name_en": "Tahr", "hash": 3914599273, "orig_en": "HIMALAYAN TAHR", "orig_pt": "TAHR HIMALAIO", "class": 4, "max_level": "5 (10 Fabled)", "diamond_min": 101.87, "reserves": ["Sundarpatan"]}, {"name_en": "Taruca", "hash": 1421519550, "orig_en": "TARUCA", "orig_pt": "TARUCA", "class": 3, "max_level": "3", "diamond_min": 101.66, "reserves": ["Intisuyu"]}, {"name_en": "Dusky Grouse", "hash": 3707203658, "orig_en": "DUSKY GROUSE", "orig_pt": "TETRAZ-AZUL", "class": 1, "max_level": "3", "diamond_min": 151.0, "reserves": ["Askiy Ridge Hunting Preserve"]}, {"name_en": "Western Capercaillie", "hash": 1383761304, "orig_en": "WESTERN CAPERCAILLIE", "orig_pt": "TETRAZ-GRANDE", "class": 1, "max_level": "3", "diamond_min": 4.64, "reserves": ["Medved-Taiga National Park", "Revontuli Coast", "Tòrr nan Sithean"]}, {"name_en": "Red Grouse", "hash": 3671984443, "orig_en": "RED GROUSE", "orig_pt": "TETRAZ-VERMELHO", "class": 1, "max_level": "3", "diamond_min": 72.75, "reserves": ["Tòrr nan Sithean"]}, {"name_en": "European Badger", "hash": 3103639157, "orig_en": "EUROPEAN BADGER", "orig_pt": "TEXUGO-EUROPEU", "class": 2, "max_level": "5", "diamond_min": 16.0, "reserves": ["Tòrr nan Sithean"]}, {"name_en": "Bengal Tiger", "hash": 523794729, "orig_en": "BENGAL TIGER", "orig_pt": "TIGRE-DE-BENGALA", "class": 9, "max_level": "9", "diamond_min": 57.0, "reserves": ["Sundarpatan"]}, {"name_en": "Grizzly Bear", "hash": 1423789175, "orig_en": "GRIZZLY BEAR", "orig_pt": "URSO-CINZENTO", "class": 8, "max_level": "9", "diamond_min": 66.94, "reserves": ["Yukon Valley"]}, {"name_en": "Spectacled Bear", "hash": 1281465618, "orig_en": "SPECTACLED BEAR", "orig_pt": "URSO-DE-ÓCULOS", "class": 6, "max_level": "9", "diamond_min": 20.45, "reserves": ["Intisuyu"]}, {"name_en": "Brown Bear", "hash": 966469536, "orig_en": "BROWN BEAR", "orig_pt": "URSO-PARDO", "class": 7, "max_level": "9", "diamond_min": 27.7, "reserves": ["Medved-Taiga National Park", "Revontuli Coast"]}, {"name_en": "Black Bear", "hash": 1887506172, "orig_en": "Black bear", "orig_pt": "Urso preto", "class": 7, "max_level": "9 (10 Fabled)", "diamond_min": 22.8, "reserves": ["Layton Lake District", "Silver Ridge Peaks", "Mississippi Acres Preserve", "New England Mountains", "Askiy Ridge Hunting Preserve"]}, {"name_en": "Rocky Mountain Elk", "hash": 1845790402, "orig_en": "ROCKY MOUNTAIN ELK", "orig_pt": "VEADO-DAS-MONTANHAS-ROCHOSAS", "class": 7, "max_level": "5", "diamond_min": 481.41, "reserves": ["Silver Ridge Peaks"]}, {"name_en": "Whitetail Deer", "hash": 1124598738, "orig_en": "WHITETAIL DEER", "orig_pt": "VEADO-DE-CAUDA-BRANCA", "class": 4, "max_level": "3 (10 Fabled)", "diamond_min": 255.09, "reserves": ["Layton Lake District", "Rancho del Arroyo", "Mississippi Acres Preserve", "Revontuli Coast", "New England Mountains", "Askiy Ridge Hunting Preserve", "Intisuyu"]}, {"name_en": "Blacktail Deer", "hash": 3371728369, "orig_en": "BLACKTAIL DEER", "orig_pt": "VEADO-DE-CAUDA-PRETA", "class": 4, "max_level": "5", "diamond_min": 177.58, "reserves": ["Layton Lake District"]}, {"name_en": "Roosevelt Elk", "hash": 2735756462, "orig_en": "ROOSEVELT ELK", "orig_pt": "VEADO-DE-ROOSEVELT", "class": 7, "max_level": "5", "diamond_min": 380.84, "reserves": ["Layton Lake District"]}, {"name_en": "Mule Deer", "hash": 91307557, "orig_en": "MULE DEER", "orig_pt": "VEADO-MULA", "class": 5, "max_level": "5 (10 Fabled)", "diamond_min": 312.17, "reserves": ["Parque Fernando", "Silver Ridge Peaks", "Rancho del Arroyo", "Askiy Ridge Hunting Preserve"]}, {"name_en": "Red Deer", "hash": 653959062, "orig_en": "RED DEER", "orig_pt": "VEADO-VERMELHO", "class": 6, "max_level": "9 (10 Fabled)", "diamond_min": 251.07, "reserves": ["Hirschfelden Hunting Reserve", "Parque Fernando", "Cuatro Colinas Game Reserve", "Te Awaroa National Park", "Emerald Coast", "Tòrr nan Sithean"]}, {"name_en": "Vicuna", "hash": 237922851, "orig_en": "VICUÑA", "orig_pt": "VICUNHA", "class": 3, "max_level": "5", "diamond_min": 214.0, "reserves": ["Intisuyu"]}, {"name_en": "American Mink", "hash": 86325018, "orig_en": "AMERICAN MINK", "orig_pt": "VISON-AMERICANO", "class": 1, "max_level": "5", "diamond_min": 151.0, "reserves": ["Tòrr nan Sithean"]}, {"name_en": "Ferruginous Duck", "hash": 1124366911, "orig_en": "FERRUGINOUS DUCK", "orig_pt": "ZARRO-CASTANHO", "class": 1, "max_level": "3", "diamond_min": 1050.0, "reserves": ["Salzwiesen Park"]}, {"name_en": "Tufted Duck", "hash": 4222036702, "orig_en": "Tufted Duck", "orig_pt": "Zarro-negrinha", "class": 1, "max_level": "3", "diamond_min": 963.0, "reserves": ["Revontuli Coast", "Salzwiesen Park"]}, {"name_en": "Beceite Ibex", "hash": 3832835510, "orig_en": "BECEITE IBEX", "orig_pt": "ÍBEX DE BECEITE", "class": 4, "max_level": "5", "diamond_min": 191.63, "reserves": ["Cuatro Colinas Game Reserve"]}, {"name_en": "Gredos Ibex", "hash": 3292118835, "orig_en": "GREDOS IBEX", "orig_pt": "ÍBEX DE GREDOS", "class": 4, "max_level": "5", "diamond_min": 100.17, "reserves": ["Cuatro Colinas Game Reserve"]}, {"name_en": "Ronda Ibex", "hash": 4150395648, "orig_en": "RONDA IBEX", "orig_pt": "ÍBEX DE RONDA", "class": 4, "max_level": "5", "diamond_min": 107.98, "reserves": ["Cuatro Colinas Game Reserve"]}, {"name_en": "Southeastern Spanish Ibex", "hash": 64820688, "orig_en": "SOUTHEASTERN SPANISH IBEX", "orig_pt": "ÍBEX ESPANHOL DO SUDESTE", "class": 4, "max_level": "5", "diamond_min": 89.68, "reserves": ["Cuatro Colinas Game Reserve"]}, {"name_en": "Gemsbok", "hash": 1638931339, "orig_en": "GEMSBOK", "orig_pt": "ÓRIX-DO-CABO", "class": 6, "max_level": "5", "diamond_min": 337.59, "reserves": ["Vurhonga Savanna"]}];
+
+function init() {
+  populateFilters();
+  renderAnimals(animalsData);
+  populateCalcSelect();
+}
+
+function populateFilters() {
+  const reservesSet = new Set();
+  animalsData.forEach(a => {
+    a.reserves.forEach(r => reservesSet.add(r));
+  });
+  
+  const reserveSelect = document.getElementById('reserve-filter');
+  Array.from(reservesSet).sort().forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r;
+    opt.textContent = r;
+    reserveSelect.appendChild(opt);
+  });
+}
+
+function populateCalcSelect() {
+  const sel = document.getElementById('calc-animal');
+  sel.innerHTML = '<option value="">-- Selecione o animal --</option>';
+  animalsData.forEach(a => {
+    const opt = document.createElement('option');
+    opt.value = a.name_en;
+    opt.textContent = `${a.orig_pt} (${a.orig_en})`;
+    sel.appendChild(opt);
+  });
+}
+
+function renderAnimals(list) {
+  const tbody = document.getElementById('animals-tbody');
+  tbody.innerHTML = '';
+  
+  document.getElementById('stats-counter').textContent = `Exibindo ${list.length} de ${animalsData.length} animais`;
+
+  list.forEach(a => {
+    const tr = document.createElement('tr');
+    
+    const isFabled = a.max_level.includes('Fabled');
+    const fabledTag = isFabled ? '<span class="fabled-badge">⭐ Great One</span>' : '';
+    const lvlClean = a.max_level.replace(' (10 Fabled)', ' (GO)');
+    
+    tr.innerHTML = `
+      <td>
+        <div class="animal-name">${a.orig_pt}</div>
+        <div class="animal-en">${a.name_en}</div>
+      </td>
+      <td><span class="class-pill">Classe ${a.class}</span></td>
+      <td><span class="level-badge">Nvl ${lvlClean}</span> ${fabledTag}</td>
+      <td><span class="diamond-val">💎 ${a.diamond_min}+</span></td>
+      <td><code style="color:#00d2d3; font-size:12px;">[DIAMANTE: ${a.diamond_min}+ | Nvl ${lvlClean}]</code></td>
+      <td class="reserves-list">${a.reserves.join(', ')}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function filterAnimals() {
+  const query = document.getElementById('search-input').value.toLowerCase().trim();
+  const reserve = document.getElementById('reserve-filter').value;
+  const cls = document.getElementById('class-filter').value;
+
+  const filtered = animalsData.filter(a => {
+    const matchQuery = !query || 
+      a.orig_pt.toLowerCase().includes(query) ||
+      a.orig_en.toLowerCase().includes(query) ||
+      a.name_en.toLowerCase().includes(query) ||
+      String(a.class).includes(query);
+      
+    const matchReserve = !reserve || a.reserves.includes(reserve);
+    const matchClass = !cls || String(a.class) === cls;
+
+    return matchQuery && matchReserve && matchClass;
+  });
+
+  renderAnimals(filtered);
+}
+
+function calcEvaluate() {
+  const selAnimalName = document.getElementById('calc-animal').value;
+  const scoreRaw = document.getElementById('calc-score').value.trim();
+  const resDiv = document.getElementById('calc-result');
+
+  if (!selAnimalName) {
+    resDiv.className = 'calc-result';
+    resDiv.textContent = 'Selecione um animal primeiro';
+    return;
+  }
+
+  const animal = animalsData.find(a => a.name_en === selAnimalName);
+  if (!animal) return;
+
+  if (!scoreRaw) {
+    resDiv.className = 'calc-result';
+    resDiv.textContent = `Diamante mín: ${animal.diamond_min} (Nível Máx: ${animal.max_level})`;
+    return;
+  }
+
+  // Parse score (could be '250', '240 - 260', etc)
+  let val = 0;
+  if (scoreRaw.includes('-')) {
+    const parts = scoreRaw.split('-');
+    val = parseFloat(parts[parts.length - 1].trim()) || 0;
+  } else {
+    val = parseFloat(scoreRaw) || 0;
+  }
+
+  if (val >= animal.diamond_min) {
+    resDiv.className = 'calc-result diamond';
+    resDiv.innerHTML = `💎 POTENCIAL DIAMANTE! (Estimativa máxima ${val} &ge; ${animal.diamond_min})`;
+  } else if (val >= animal.diamond_min * 0.8) {
+    resDiv.className = 'calc-result gold';
+    resDiv.innerHTML = `🥇 Provável OURO (Estimativa ${val} &lt; ${animal.diamond_min})`;
+  } else {
+    resDiv.className = 'calc-result silver';
+    resDiv.innerHTML = `🥈 Provável PRATA / BRONZE (Estimativa ${val} &lt; ${animal.diamond_min})`;
+  }
+}
+
+function openModal() {
+  document.getElementById('installModal').classList.add('active');
+}
+
+function closeModal() {
+  document.getElementById('installModal').classList.remove('active');
+}
+
+window.onclick = function(event) {
+  const modal = document.getElementById('installModal');
+  if (event.target === modal) {
+    closeModal();
+  }
+}
+
+window.onload = init;
+</script>
+
+</body>
+</html>

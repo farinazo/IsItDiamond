@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backups and loose game dumps
+_BACKUP_ORIGINAIS/
+/animal_settings.bin
+/creatures.bin
+/string_ids.stringlookup
+
+# OS / Editor files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

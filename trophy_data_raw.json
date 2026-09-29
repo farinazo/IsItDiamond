@@ -1,0 +1,1591 @@
+[
+  {
+    "animal": "Ringed-Neck Pheasant",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 20.29,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "Canada Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 8.59,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "European Rabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 2.42,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "Red Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 14.05,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "Roe Deer",
+    "class": 3,
+    "max_level": "3",
+    "diamond_score": 81.8,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "Fallow Deer",
+    "class": 4,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 249.99,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "Wild Boar",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "Red Deer",
+    "class": 6,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 251.07,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "European Bison",
+    "class": 9,
+    "max_level": "5",
+    "diamond_score": 127.62,
+    "reserve": "Hirschfelden Hunting Reserve"
+  },
+  {
+    "animal": "Merriam Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.62,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "White-Tailed Jackrabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 6.33,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "Mallard",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 19.61,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "Coyote",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 56.87,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "Blacktail Deer",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 177.58,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "Whitetail Deer",
+    "class": 4,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 255.09,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "Black Bear",
+    "class": 7,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 22.8,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "Moose",
+    "class": 8,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 274.99,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "Roosevelt Elk",
+    "class": 7,
+    "max_level": "5",
+    "diamond_score": 380.84,
+    "reserve": "Layton Lake District"
+  },
+  {
+    "animal": "Western Capercaillie",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.64,
+    "reserve": "Medved-Taiga National Park"
+  },
+  {
+    "animal": "Siberian Musk Deer",
+    "class": 2,
+    "max_level": "3",
+    "diamond_score": 249.0,
+    "reserve": "Medved-Taiga National Park"
+  },
+  {
+    "animal": "Eurasian Lynx",
+    "class": 3,
+    "max_level": "9",
+    "diamond_score": 27.68,
+    "reserve": "Medved-Taiga National Park"
+  },
+  {
+    "animal": "Wild Boar",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Medved-Taiga National Park"
+  },
+  {
+    "animal": "Grey Wolf",
+    "class": 5,
+    "max_level": "9",
+    "diamond_score": 39.0,
+    "reserve": "Medved-Taiga National Park"
+  },
+  {
+    "animal": "Reindeer",
+    "class": 6,
+    "max_level": "5",
+    "diamond_score": 430.23,
+    "reserve": "Medved-Taiga National Park"
+  },
+  {
+    "animal": "Brown Bear",
+    "class": 7,
+    "max_level": "9",
+    "diamond_score": 27.7,
+    "reserve": "Medved-Taiga National Park"
+  },
+  {
+    "animal": "Moose",
+    "class": 8,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 274.99,
+    "reserve": "Medved-Taiga National Park"
+  },
+  {
+    "animal": "Eurasian Wigeon",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 905.0,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Scrub Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 5.37,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Side-Striped Jackal",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 29.1,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Springbok",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 78.55,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Lesser Kudu",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 151.64,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Warthog",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 58.18,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Wildebeest",
+    "class": 6,
+    "max_level": "5",
+    "diamond_score": 37.69,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Gemsbok",
+    "class": 8,
+    "max_level": "5",
+    "diamond_score": 337.59,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Lion",
+    "class": 9,
+    "max_level": "9",
+    "diamond_score": 48.5,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Cape Buffalo",
+    "class": 9,
+    "max_level": "9",
+    "diamond_score": 151.35,
+    "reserve": "Vurhonga Savanna"
+  },
+  {
+    "animal": "Cinnamon Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.6,
+    "reserve": "Parque Fernando"
+  },
+  {
+    "animal": "Axis Deer",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 217.29,
+    "reserve": "Parque Fernando"
+  },
+  {
+    "animal": "Blackbuck",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 132.26,
+    "reserve": "Parque Fernando"
+  },
+  {
+    "animal": "Collared Peccary",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Parque Fernando"
+  },
+  {
+    "animal": "Puma",
+    "class": 6,
+    "max_level": "9",
+    "diamond_score": 39.0,
+    "reserve": "Parque Fernando"
+  },
+  {
+    "animal": "Mule Deer",
+    "class": 6,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 312.17,
+    "reserve": "Parque Fernando"
+  },
+  {
+    "animal": "Red Deer",
+    "class": 6,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 251.07,
+    "reserve": "Parque Fernando"
+  },
+  {
+    "animal": "Water Buffalo",
+    "class": 9,
+    "max_level": "9",
+    "diamond_score": 167.54,
+    "reserve": "Parque Fernando"
+  },
+  {
+    "animal": "Canada Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 8.59,
+    "reserve": "Yukon Valley"
+  },
+  {
+    "animal": "Harlequin Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 7.2,
+    "reserve": "Yukon Valley"
+  },
+  {
+    "animal": "Red Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 14.05,
+    "reserve": "Yukon Valley"
+  },
+  {
+    "animal": "Grey Wolf",
+    "class": 5,
+    "max_level": "9",
+    "diamond_score": 39.0,
+    "reserve": "Yukon Valley"
+  },
+  {
+    "animal": "Caribou",
+    "class": 6,
+    "max_level": "5",
+    "diamond_score": 430.23,
+    "reserve": "Yukon Valley"
+  },
+  {
+    "animal": "Grizzly Bear",
+    "class": 7,
+    "max_level": "9",
+    "diamond_score": 66.94,
+    "reserve": "Yukon Valley"
+  },
+  {
+    "animal": "Moose",
+    "class": 8,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 274.99,
+    "reserve": "Yukon Valley"
+  },
+  {
+    "animal": "Plains Bison",
+    "class": 9,
+    "max_level": "5",
+    "diamond_score": 183.5,
+    "reserve": "Yukon Valley"
+  },
+  {
+    "animal": "European Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 6.5,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Ring-Necked Pheasant",
+    "class": 1,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 20.3,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Roe Deer",
+    "class": 3,
+    "max_level": "3",
+    "diamond_score": 81.8,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Iberian Mouflon",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 179.56,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Beceite Ibex",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 191.63,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Gredos Ibex",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 100.17,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Ronda Ibex",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 107.98,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Southeastern Spanish Ibex",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 89.68,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Wild Boar",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Iberian Wolf",
+    "class": 5,
+    "max_level": "9",
+    "diamond_score": 39.0,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Red Deer",
+    "class": 6,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 251.07,
+    "reserve": "Cuatro Colinas Game Reserve"
+  },
+  {
+    "animal": "Merriam Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.62,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Bighorn Sheep",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 196.64,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Mountain Goat",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 107.67,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Pronghorn",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 108.0,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Mountain Lion",
+    "class": 5,
+    "max_level": "9",
+    "diamond_score": 39.0,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Mule Deer",
+    "class": 6,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 312.17,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Black Bear",
+    "class": 7,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 22.8,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Rocky Mountain Elk",
+    "class": 8,
+    "max_level": "5",
+    "diamond_score": 481.41,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Plains Bison",
+    "class": 9,
+    "max_level": "5",
+    "diamond_score": 183.5,
+    "reserve": "Silver Ridge Peaks"
+  },
+  {
+    "animal": "Mallard",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 19.61,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "European Rabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 2.42,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.62,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "Chamois",
+    "class": 2,
+    "max_level": "5",
+    "diamond_score": 58.0,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "Feral Goat",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 208.71,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "Fallow Deer",
+    "class": 4,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 249.99,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "Feral Pig",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "Sika Deer",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 198.74,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "Red Deer",
+    "class": 6,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 251.07,
+    "reserve": "Te Awaroa National Park"
+  },
+  {
+    "animal": "Antelope Jackrabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 6.33,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Ring-Necked Pheasant",
+    "class": 1,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 20.3,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Rio Grande Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.62,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Coyote",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 56.87,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Mexican Bobcat",
+    "class": 3,
+    "max_level": "9",
+    "diamond_score": 27.68,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Collared Peccary",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Pronghorn",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 98.02,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Bighorn Sheep",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 196.64,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Whitetail Deer",
+    "class": 4,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 255.09,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Mule Deer",
+    "class": 6,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 312.17,
+    "reserve": "Rancho del Arroyo"
+  },
+  {
+    "animal": "Green-Winged Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 480.0,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Bobwhite Quail",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 238.0,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Eastern Cottontail Rabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 1.97,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Eastern Wild Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.62,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Common Raccoon",
+    "class": 2,
+    "max_level": "5",
+    "diamond_score": 12.0,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Grey Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 6.43,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Wild Hog",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Whitetail Deer",
+    "class": 4,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 255.09,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "American Alligator",
+    "class": 6,
+    "max_level": "9",
+    "diamond_score": 492.0,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Black Bear",
+    "class": 7,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 22.8,
+    "reserve": "Mississippi Acres Preserve"
+  },
+  {
+    "animal": "Western Capercaillie",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.64,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Hazel Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 435.0,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Black Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 120.0,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Willow Ptarmigan",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 772.0,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Rock Ptarmigan",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 709.0,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Eurasian Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 354.0,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Eurasian Wigeon",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 905.0,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Mallard",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 19.61,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Tufted Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 963.0,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Canada Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 8.59,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Greylag Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 3.85,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Tundra Bean Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 3.16,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Goldeneye",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 1230.0,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Mountain Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 5.6,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Raccoon Dog",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 9.29,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Eurasian Lynx",
+    "class": 33,
+    "max_level": "9",
+    "diamond_score": 27.68,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Whitetail Deer",
+    "class": 4,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 255.09,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Brown Bear",
+    "class": 7,
+    "max_level": "9",
+    "diamond_score": 27.7,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Moose",
+    "class": 8,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 274.99,
+    "reserve": "Revontuli Coast"
+  },
+  {
+    "animal": "Bobwhite Quail",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 238.0,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Goldeneye",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 1230.0,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Green Winged Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 480.0,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Mallard",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 19.61,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Ring-Necked Pheasant",
+    "class": 1,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 20.3,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Eastern Wild Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.62,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Eastern Cottontail Rabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 1.97,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Common Raccoon",
+    "class": 2,
+    "max_level": "5",
+    "diamond_score": 12.0,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Coyote",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 56.87,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Red Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 14.05,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Grey Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 6.43,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Bobcat",
+    "class": 3,
+    "max_level": "9",
+    "diamond_score": 27.68,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Whitetail Deer",
+    "class": 4,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 255.09,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Black Bear",
+    "class": 7,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 22.8,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Moose",
+    "class": 8,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 274.99,
+    "reserve": "New England Mountains"
+  },
+  {
+    "animal": "Magpie Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 3.85,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Stubble Quail",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 238.0,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Red Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 14.05,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Axis Deer",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 217.29,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Hog Deer",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 108.68,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Feral Goat",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 208.7,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Feral Pig",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Fallow Deer",
+    "class": 4,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 249.99,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Eastern Grey Kangaroo",
+    "class": 4,
+    "max_level": "9",
+    "diamond_score": 492.0,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Javen Rusa",
+    "class": 6,
+    "max_level": "5",
+    "diamond_score": 148.78,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Red Deer",
+    "class": 6,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 251.07,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Sambar Deer",
+    "class": 6,
+    "max_level": "5",
+    "diamond_score": 166.43,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Saltwater Crocodile",
+    "class": 7,
+    "max_level": "9",
+    "diamond_score": 1015.0,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Banteng",
+    "class": 9,
+    "max_level": "5",
+    "diamond_score": 137.0,
+    "reserve": "Emerald Coast"
+  },
+  {
+    "animal": "Greylag Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 3.85,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Woolly Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 3.28,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Northern Red Muntjac",
+    "class": 2,
+    "max_level": "5",
+    "diamond_score": 35.24,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Tibetan Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 6.37,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Blackbuck",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 132.2,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Blue Sheep",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 154.08,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Snow Leopard",
+    "class": 4,
+    "max_level": "9",
+    "diamond_score": 29.0,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Tahr",
+    "class": 4,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 101.87,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Barasingha",
+    "class": 6,
+    "max_level": "5",
+    "diamond_score": 226.05,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Nilgai",
+    "class": 6,
+    "max_level": "5",
+    "diamond_score": 94.89,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Bengal Tiger",
+    "class": 9,
+    "max_level": "9",
+    "diamond_score": 57.0,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Water Buffalo",
+    "class": 9,
+    "max_level": "9",
+    "diamond_score": 167.54,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Wild Yak",
+    "class": 9,
+    "max_level": "9",
+    "diamond_score": 273.23,
+    "reserve": "Sundarpatan"
+  },
+  {
+    "animal": "Eurasian Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 354.0,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Eurasian Wigeon",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 905.0,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Ferruginous Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 1050.0,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Gadwall",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 1050.0,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Tundra Bean Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 3.16,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Black Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 120.0,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Ring-Necked Pheasant",
+    "class": 1,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 20.3,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "European Rabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 2.42,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Goldeneye",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 1230.0,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Mallard",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 19.61,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Tufted Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 963.0,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Greylag Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 3.85,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Common Raccoon",
+    "class": 2,
+    "max_level": "5",
+    "diamond_score": 12.0,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Raccoon Dog",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 9.29,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Red Fox",
+    "class": 2,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 14.05,
+    "reserve": "Salzwiesen Park"
+  },
+  {
+    "animal": "Canada Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 8.59,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Dusky Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 151.0,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Mallard",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 19.61,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Northern Pintail",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 1040.0,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Ring-Necked Pheasant",
+    "class": 1,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 20.3,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Snow Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 3.85,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Wood Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 670.0,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "North American Beaver",
+    "class": 2,
+    "max_level": "5",
+    "diamond_score": 30.4,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Pronghorn",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 108.0,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Mountain Goat",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 107.67,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Whitetail Deer",
+    "class": 4,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 255.09,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Bighorn Sheep",
+    "class": 5,
+    "max_level": "5",
+    "diamond_score": 196.64,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Mule Deer",
+    "class": 5,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 312.17,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Grey Wolf",
+    "class": 6,
+    "max_level": "9",
+    "diamond_score": 39.0,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Woodland Caribou",
+    "class": 6,
+    "max_level": "5",
+    "diamond_score": 430.23,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Black Bear",
+    "class": 7,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 22.8,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Monitoban Elk",
+    "class": 7,
+    "max_level": "5",
+    "diamond_score": 457.56,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Moose",
+    "class": 8,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 274.99,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Wood Bison",
+    "class": 9,
+    "max_level": "5",
+    "diamond_score": 158.0,
+    "reserve": "Askiy Ridge Hunting Preserve"
+  },
+  {
+    "animal": "Black Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 120.0,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Red Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 72.75,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Eurasian Wigeon",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 905.0,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Eurasian Woodcock",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 41.3,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Mountain Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 5.6,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Ring-Necked Pheasant",
+    "class": 1,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 20.3,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Western Capercaillie",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.64,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "American Mink",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 151.0,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Eurasian Pine Marten",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 208.0,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "European Badger",
+    "class": 2,
+    "max_level": "5",
+    "diamond_score": 16.0,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Red Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_score": 14.05,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Feral Goat",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 208.71,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Roe Deer",
+    "class": 3,
+    "max_level": "3",
+    "diamond_score": 81.8,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Fallow Deer",
+    "class": 4,
+    "max_level": "5 (10 Fabled)",
+    "diamond_score": 249.99,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Sika Deer",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 198.74,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Wild Boar",
+    "class": 4,
+    "max_level": "5",
+    "diamond_score": 144.25,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Red Deer",
+    "class": 6,
+    "max_level": "9 (10 Fabled)",
+    "diamond_score": 251.07,
+    "reserve": "Tòrr nan Sithean"
+  },
+  {
+    "animal": "Western Mountain Coati",
+    "class": 1,
+    "max_level": "",
+    "diamond_score": "",
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Greater Grison",
+    "class": 1,
+    "max_level": "5",
+    "diamond_score": 356.0,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Cinnamon Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_score": 4.6,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Ocelot",
+    "class": 2,
+    "max_level": "",
+    "diamond_score": 27.68,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Collared Peccary",
+    "class": 3,
+    "max_level": "4",
+    "diamond_score": 144.25,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Taruca",
+    "class": 3,
+    "max_level": "",
+    "diamond_score": "",
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Vicuna",
+    "class": 3,
+    "max_level": "5",
+    "diamond_score": 214.0,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Whitetail Deer",
+    "class": 4,
+    "max_level": "3 (10 Fabled)",
+    "diamond_score": 255.09,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Capybara",
+    "class": 4,
+    "max_level": "",
+    "diamond_score": "",
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Puma",
+    "class": 5,
+    "max_level": "9",
+    "diamond_score": 39.0,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "South American Tapir",
+    "class": 6,
+    "max_level": "9",
+    "diamond_score": 144.0,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Spectacled Bear",
+    "class": 6,
+    "max_level": "9",
+    "diamond_score": 20.45,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Jaguar",
+    "class": 6,
+    "max_level": "",
+    "diamond_score": 43.75,
+    "reserve": "Intisuyu"
+  },
+  {
+    "animal": "Black Caiman",
+    "class": 7,
+    "max_level": "9",
+    "diamond_score": 468.0,
+    "reserve": "Intisuyu"
+  }
+]

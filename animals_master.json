@@ -1,0 +1,1269 @@
+[
+  {
+    "name_en": "American Alligator",
+    "class": 7,
+    "max_level": "9",
+    "diamond_min": 492.0,
+    "reserves": [
+      "Mississippi Acres Preserve"
+    ]
+  },
+  {
+    "name_en": "American Mink",
+    "class": 1,
+    "max_level": "5",
+    "diamond_min": 151.0,
+    "reserves": [
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Antelope Jackrabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 6.33,
+    "reserves": [
+      "Rancho del Arroyo"
+    ]
+  },
+  {
+    "name_en": "Axis Deer",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 217.29,
+    "reserves": [
+      "Parque Fernando",
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Banteng",
+    "class": 9,
+    "max_level": "5",
+    "diamond_min": 137.0,
+    "reserves": [
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Barasingha",
+    "class": 6,
+    "max_level": "5",
+    "diamond_min": 226.05,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Beceite Ibex",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 191.63,
+    "reserves": [
+      "Cuatro Colinas Game Reserve"
+    ]
+  },
+  {
+    "name_en": "Bengal Tiger",
+    "class": 9,
+    "max_level": "9",
+    "diamond_min": 57.0,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Bighorn Sheep",
+    "class": 5,
+    "max_level": "5",
+    "diamond_min": 196.93,
+    "reserves": [
+      "Silver Ridge Peaks",
+      "Rancho del Arroyo",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Black Bear",
+    "class": 7,
+    "max_level": "9 (10 Fabled)",
+    "diamond_min": 22.8,
+    "reserves": [
+      "Layton Lake District",
+      "Silver Ridge Peaks",
+      "Mississippi Acres Preserve",
+      "New England Mountains",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Black Caiman",
+    "class": 7,
+    "max_level": "9",
+    "diamond_min": 468.0,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Black Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 120.0,
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Blackbuck",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 132.26,
+    "reserves": [
+      "Parque Fernando",
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Blacktail Deer",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 177.58,
+    "reserves": [
+      "Layton Lake District"
+    ]
+  },
+  {
+    "name_en": "Blue Sheep",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 154.08,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Bobcat",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 27.68,
+    "reserves": [
+      "New England Mountains"
+    ]
+  },
+  {
+    "name_en": "Bobwhite Quail",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 238.0,
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ]
+  },
+  {
+    "name_en": "Brown Bear",
+    "class": 7,
+    "max_level": "9",
+    "diamond_min": 27.7,
+    "reserves": [
+      "Medved-Taiga National Park",
+      "Revontuli Coast"
+    ]
+  },
+  {
+    "name_en": "Canada Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_min": 8.59,
+    "reserves": [
+      "Hirschfelden Hunting Reserve",
+      "Yukon Valley",
+      "Revontuli Coast",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Cape Buffalo",
+    "class": 9,
+    "max_level": "9",
+    "diamond_min": 151.35,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Capybara",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 66.5,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Caribou",
+    "class": 6,
+    "max_level": "5",
+    "diamond_min": 430.23,
+    "reserves": [
+      "Yukon Valley"
+    ]
+  },
+  {
+    "name_en": "Chamois",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 58.0,
+    "reserves": [
+      "Te Awaroa National Park"
+    ]
+  },
+  {
+    "name_en": "Cinnamon Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 4.6,
+    "reserves": [
+      "Parque Fernando",
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Collared Peccary",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 144.25,
+    "reserves": [
+      "Parque Fernando",
+      "Rancho del Arroyo",
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Common Raccoon",
+    "class": 2,
+    "max_level": "5",
+    "diamond_min": 12.0,
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains",
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Coyote",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 56.87,
+    "reserves": [
+      "Layton Lake District",
+      "Rancho del Arroyo",
+      "New England Mountains"
+    ]
+  },
+  {
+    "name_en": "Dusky Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 151.0,
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Eastern Cottontail Rabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 1.97,
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ]
+  },
+  {
+    "name_en": "Eastern Grey Kangaroo",
+    "class": 4,
+    "max_level": "9",
+    "diamond_min": 492.0,
+    "reserves": [
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Eastern Wild Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 4.62,
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ]
+  },
+  {
+    "name_en": "Eurasian Lynx",
+    "class": 3,
+    "max_level": "9",
+    "diamond_min": 27.68,
+    "reserves": [
+      "Medved-Taiga National Park",
+      "Revontuli Coast"
+    ]
+  },
+  {
+    "name_en": "Eurasian Pine Marten",
+    "class": 1,
+    "max_level": "5",
+    "diamond_min": 208.0,
+    "reserves": [
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Eurasian Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 354.0,
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Eurasian Wigeon",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 905.0,
+    "reserves": [
+      "Vurhonga Savanna",
+      "Revontuli Coast",
+      "Salzwiesen Park",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Eurasian Woodcock",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 41.03,
+    "reserves": [
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "European Badger",
+    "class": 2,
+    "max_level": "5",
+    "diamond_min": 16.0,
+    "reserves": [
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "European Bison",
+    "class": 9,
+    "max_level": "5",
+    "diamond_min": 127.62,
+    "reserves": [
+      "Hirschfelden Hunting Reserve"
+    ]
+  },
+  {
+    "name_en": "European Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 6.5,
+    "reserves": [
+      "Cuatro Colinas Game Reserve"
+    ]
+  },
+  {
+    "name_en": "European Rabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 2.42,
+    "reserves": [
+      "Hirschfelden Hunting Reserve",
+      "Te Awaroa National Park",
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Fallow Deer",
+    "class": 4,
+    "max_level": "5 (10 Fabled)",
+    "diamond_min": 249.99,
+    "reserves": [
+      "Hirschfelden Hunting Reserve",
+      "Te Awaroa National Park",
+      "Emerald Coast",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Feral Goat",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 208.71,
+    "reserves": [
+      "Te Awaroa National Park",
+      "Emerald Coast",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Feral Pig",
+    "class": 5,
+    "max_level": "5",
+    "diamond_min": 144.25,
+    "reserves": [
+      "Te Awaroa National Park",
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Ferruginous Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 1050.0,
+    "reserves": [
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Gadwall",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 1050.0,
+    "reserves": [
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Gemsbok",
+    "class": 6,
+    "max_level": "5",
+    "diamond_min": 337.59,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Goldeneye",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 1230.0,
+    "reserves": [
+      "Revontuli Coast",
+      "New England Mountains",
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Greater Grison",
+    "class": 1,
+    "max_level": "5",
+    "diamond_min": 356.0,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Gredos Ibex",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 100.17,
+    "reserves": [
+      "Cuatro Colinas Game Reserve"
+    ]
+  },
+  {
+    "name_en": "Green Winged Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 480.0,
+    "reserves": [
+      "New England Mountains"
+    ]
+  },
+  {
+    "name_en": "Green-Winged Teal",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 480.0,
+    "reserves": [
+      "Mississippi Acres Preserve"
+    ]
+  },
+  {
+    "name_en": "Grey Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 6.43,
+    "reserves": [
+      "Mississippi Acres Preserve",
+      "New England Mountains"
+    ]
+  },
+  {
+    "name_en": "Grey Wolf",
+    "class": 6,
+    "max_level": "9",
+    "diamond_min": 39.0,
+    "reserves": [
+      "Medved-Taiga National Park",
+      "Yukon Valley",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Greylag Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_min": 3.85,
+    "reserves": [
+      "Revontuli Coast",
+      "Sundarpatan",
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Grizzly Bear",
+    "class": 8,
+    "max_level": "9",
+    "diamond_min": 66.94,
+    "reserves": [
+      "Yukon Valley"
+    ]
+  },
+  {
+    "name_en": "Harlequin Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 7.2,
+    "reserves": [
+      "Yukon Valley"
+    ]
+  },
+  {
+    "name_en": "Hazel Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 435.0,
+    "reserves": [
+      "Revontuli Coast"
+    ]
+  },
+  {
+    "name_en": "Hog Deer",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 108.68,
+    "reserves": [
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Iberian Mouflon",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 179.56,
+    "reserves": [
+      "Cuatro Colinas Game Reserve"
+    ]
+  },
+  {
+    "name_en": "Iberian Wolf",
+    "class": 6,
+    "max_level": "9",
+    "diamond_min": 39.0,
+    "reserves": [
+      "Cuatro Colinas Game Reserve"
+    ]
+  },
+  {
+    "name_en": "Jaguar",
+    "class": 6,
+    "max_level": "9 (10 Fabled)",
+    "diamond_min": 43.75,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Javen Rusa",
+    "class": 5,
+    "max_level": "5",
+    "diamond_min": 148.78,
+    "reserves": [
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Lesser Kudu",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 151.64,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Lion",
+    "class": 9,
+    "max_level": "9",
+    "diamond_min": 48.5,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Magpie Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_min": 3.02,
+    "reserves": [
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Mallard",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 19.61,
+    "reserves": [
+      "Layton Lake District",
+      "Te Awaroa National Park",
+      "Revontuli Coast",
+      "New England Mountains",
+      "Salzwiesen Park",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Merriam Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 4.62,
+    "reserves": [
+      "Layton Lake District",
+      "Silver Ridge Peaks"
+    ]
+  },
+  {
+    "name_en": "Mexican Bobcat",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 27.68,
+    "reserves": [
+      "Rancho del Arroyo"
+    ]
+  },
+  {
+    "name_en": "Monitoban Elk",
+    "class": 7,
+    "max_level": "5",
+    "diamond_min": 457.56,
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Moose",
+    "class": 8,
+    "max_level": "5 (10 Fabled)",
+    "diamond_min": 274.99,
+    "reserves": [
+      "Layton Lake District",
+      "Medved-Taiga National Park",
+      "Yukon Valley",
+      "Revontuli Coast",
+      "New England Mountains",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Mountain Goat",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 83.2,
+    "reserves": [
+      "Silver Ridge Peaks",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Mountain Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 5.6,
+    "reserves": [
+      "Revontuli Coast",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Mountain Lion",
+    "class": 5,
+    "max_level": "9",
+    "diamond_min": 39.0,
+    "reserves": [
+      "Silver Ridge Peaks"
+    ]
+  },
+  {
+    "name_en": "Mule Deer",
+    "class": 5,
+    "max_level": "5 (10 Fabled)",
+    "diamond_min": 312.17,
+    "reserves": [
+      "Parque Fernando",
+      "Silver Ridge Peaks",
+      "Rancho del Arroyo",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Nilgai",
+    "class": 6,
+    "max_level": "5",
+    "diamond_min": 94.89,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "North American Beaver",
+    "class": 2,
+    "max_level": "5",
+    "diamond_min": 30.4,
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Northern Pintail",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 1040.0,
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Northern Red Muntjac",
+    "class": 2,
+    "max_level": "5",
+    "diamond_min": 35.24,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Ocelot",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 27.68,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Plains Bison",
+    "class": 9,
+    "max_level": "5",
+    "diamond_min": 183.5,
+    "reserves": [
+      "Yukon Valley",
+      "Silver Ridge Peaks"
+    ]
+  },
+  {
+    "name_en": "Pronghorn",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 108.0,
+    "reserves": [
+      "Silver Ridge Peaks",
+      "Rancho del Arroyo",
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Puma",
+    "class": 5,
+    "max_level": "9",
+    "diamond_min": 39.0,
+    "reserves": [
+      "Parque Fernando",
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Raccoon Dog",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 9.29,
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Red Deer",
+    "class": 6,
+    "max_level": "9 (10 Fabled)",
+    "diamond_min": 251.07,
+    "reserves": [
+      "Hirschfelden Hunting Reserve",
+      "Parque Fernando",
+      "Cuatro Colinas Game Reserve",
+      "Te Awaroa National Park",
+      "Emerald Coast",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Red Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 14.05,
+    "reserves": [
+      "Hirschfelden Hunting Reserve",
+      "Yukon Valley",
+      "New England Mountains",
+      "Emerald Coast",
+      "Salzwiesen Park",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Red Grouse",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 72.75,
+    "reserves": [
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Reindeer",
+    "class": 6,
+    "max_level": "5",
+    "diamond_min": 430.23,
+    "reserves": [
+      "Medved-Taiga National Park"
+    ]
+  },
+  {
+    "name_en": "Ring-Necked Pheasant",
+    "class": 1,
+    "max_level": "3 (10 Fabled)",
+    "diamond_min": 20.3,
+    "reserves": [
+      "Cuatro Colinas Game Reserve",
+      "Rancho del Arroyo",
+      "New England Mountains",
+      "Salzwiesen Park",
+      "Askiy Ridge Hunting Preserve",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Ringed-Neck Pheasant",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 20.29,
+    "reserves": [
+      "Hirschfelden Hunting Reserve"
+    ]
+  },
+  {
+    "name_en": "Rio Grande Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 4.62,
+    "reserves": [
+      "Rancho del Arroyo"
+    ]
+  },
+  {
+    "name_en": "Rock Ptarmigan",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 709.0,
+    "reserves": [
+      "Revontuli Coast"
+    ]
+  },
+  {
+    "name_en": "Rocky Mountain Elk",
+    "class": 7,
+    "max_level": "5",
+    "diamond_min": 481.41,
+    "reserves": [
+      "Silver Ridge Peaks"
+    ]
+  },
+  {
+    "name_en": "Roe Deer",
+    "class": 3,
+    "max_level": "3",
+    "diamond_min": 81.86,
+    "reserves": [
+      "Hirschfelden Hunting Reserve",
+      "Cuatro Colinas Game Reserve",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Ronda Ibex",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 107.98,
+    "reserves": [
+      "Cuatro Colinas Game Reserve"
+    ]
+  },
+  {
+    "name_en": "Roosevelt Elk",
+    "class": 7,
+    "max_level": "5",
+    "diamond_min": 380.84,
+    "reserves": [
+      "Layton Lake District"
+    ]
+  },
+  {
+    "name_en": "Saltwater Crocodile",
+    "class": 8,
+    "max_level": "9",
+    "diamond_min": 1015.0,
+    "reserves": [
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Sambar Deer",
+    "class": 7,
+    "max_level": "5",
+    "diamond_min": 166.24,
+    "reserves": [
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Scrub Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 5.37,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Siberian Musk Deer",
+    "class": 2,
+    "max_level": "3",
+    "diamond_min": 249.0,
+    "reserves": [
+      "Medved-Taiga National Park"
+    ]
+  },
+  {
+    "name_en": "Side-Striped Jackal",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 29.1,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Sika Deer",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 198.74,
+    "reserves": [
+      "Te Awaroa National Park",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Snow Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_min": 3.85,
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Snow Leopard",
+    "class": 4,
+    "max_level": "9",
+    "diamond_min": 29.0,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "South American Tapir",
+    "class": 6,
+    "max_level": "9",
+    "diamond_min": 144.0,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Southeastern Spanish Ibex",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 89.68,
+    "reserves": [
+      "Cuatro Colinas Game Reserve"
+    ]
+  },
+  {
+    "name_en": "Spectacled Bear",
+    "class": 6,
+    "max_level": "9",
+    "diamond_min": 20.45,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Springbok",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 78.55,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Stubble Quail",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 126.0,
+    "reserves": [
+      "Emerald Coast"
+    ]
+  },
+  {
+    "name_en": "Tahr",
+    "class": 4,
+    "max_level": "5 (10 Fabled)",
+    "diamond_min": 101.87,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Taruca",
+    "class": 3,
+    "max_level": "3",
+    "diamond_min": 101.66,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Tibetan Fox",
+    "class": 2,
+    "max_level": "9",
+    "diamond_min": 6.37,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Tufted Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 963.0,
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Tundra Bean Goose",
+    "class": 1,
+    "max_level": "5",
+    "diamond_min": 3.16,
+    "reserves": [
+      "Revontuli Coast",
+      "Salzwiesen Park"
+    ]
+  },
+  {
+    "name_en": "Turkey",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 4.62,
+    "reserves": [
+      "Te Awaroa National Park"
+    ]
+  },
+  {
+    "name_en": "Vicuna",
+    "class": 3,
+    "max_level": "5",
+    "diamond_min": 214.0,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Warthog",
+    "class": 4,
+    "max_level": "5",
+    "diamond_min": 58.18,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Water Buffalo",
+    "class": 9,
+    "max_level": "9",
+    "diamond_min": 167.54,
+    "reserves": [
+      "Parque Fernando",
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Western Capercaillie",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 4.64,
+    "reserves": [
+      "Medved-Taiga National Park",
+      "Revontuli Coast",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Western Mountain Coati",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 1.45,
+    "reserves": [
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "White-Tailed Jackrabbit",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 6.33,
+    "reserves": [
+      "Layton Lake District"
+    ]
+  },
+  {
+    "name_en": "Whitetail Deer",
+    "class": 4,
+    "max_level": "3 (10 Fabled)",
+    "diamond_min": 255.09,
+    "reserves": [
+      "Layton Lake District",
+      "Rancho del Arroyo",
+      "Mississippi Acres Preserve",
+      "Revontuli Coast",
+      "New England Mountains",
+      "Askiy Ridge Hunting Preserve",
+      "Intisuyu"
+    ]
+  },
+  {
+    "name_en": "Wild Boar",
+    "class": 5,
+    "max_level": "5",
+    "diamond_min": 144.25,
+    "reserves": [
+      "Hirschfelden Hunting Reserve",
+      "Medved-Taiga National Park",
+      "Cuatro Colinas Game Reserve",
+      "Tòrr nan Sithean"
+    ]
+  },
+  {
+    "name_en": "Wild Hog",
+    "class": 5,
+    "max_level": "5",
+    "diamond_min": 144.25,
+    "reserves": [
+      "Mississippi Acres Preserve"
+    ]
+  },
+  {
+    "name_en": "Wild Yak",
+    "class": 9,
+    "max_level": "9",
+    "diamond_min": 273.23,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  },
+  {
+    "name_en": "Wildebeest",
+    "class": 6,
+    "max_level": "5",
+    "diamond_min": 37.69,
+    "reserves": [
+      "Vurhonga Savanna"
+    ]
+  },
+  {
+    "name_en": "Willow Ptarmigan",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 772.0,
+    "reserves": [
+      "Revontuli Coast"
+    ]
+  },
+  {
+    "name_en": "Wood Bison",
+    "class": 9,
+    "max_level": "5",
+    "diamond_min": 158.0,
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Wood Duck",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 670.0,
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Woodland Caribou",
+    "class": 6,
+    "max_level": "5",
+    "diamond_min": 430.23,
+    "reserves": [
+      "Askiy Ridge Hunting Preserve"
+    ]
+  },
+  {
+    "name_en": "Woolly Hare",
+    "class": 1,
+    "max_level": "3",
+    "diamond_min": 3.28,
+    "reserves": [
+      "Sundarpatan"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+================================================================================
+   theHunter: Call of the Wild - In-Game Overlay HUD (Abordagem 1) v1.0
+================================================================================
+
+Este é o aplicativo de Overlay em Tempo Real para theHunter: Call of the Wild.
+
+COMO ELE FUNCIONA:
+- Ele roda em segundo plano e cria uma janela transparente sobre o seu jogo.
+- Ele monitora a área onde aparece o painel de avistamento (spotting HUD)
+  quando você mira com o binóculo ou luneta.
+- Ao detectar o animal e a estimativa de pontos (ex: "235 - 268"), ele calcula
+  na mesma hora e desenha um card flutuante na tela dizendo:
+    💎 DIAMANTE POTENCIAL! (ou 💎 DIAMANTE GARANTIDO!)
+    🥇 PROVÁVEL OURO
+    🥈 PROVÁVEL PRATA
+    🥉 PROVÁVEL BRONZE
+- Mostra a pontuação mínima para Diamante, nível máximo e classe de munição.
+- O card desaparece sozinho quando você para de mirar no animal.
+- É 100% "click-through": cliques de mouse e teclas atravessam diretamente
+  para o jogo sem travar ou roubar o foco!
+
+--------------------------------------------------------------------------------
+REQUISITO OBRIGATÓRIO NO JOGO:
+--------------------------------------------------------------------------------
+No theHunter: Call of the Wild:
+1. Vá nas opções do jogo: Configurações -> Vídeo.
+2. No Modo de Exibição (Display Mode), mude de "Tela Cheia" para:
+   "JANELA SEM BORDAS" (Borderless Windowed) ou "TELA CHEIA EM JANELA".
+
+Por que isso?
+No modo Janela Sem Bordas, o jogo continua ocupando todo o monitor (parece 100%
+tela cheia), mas o Windows permite que o Overlay desenhe por cima de forma
+totalmente segura, sem precisar injetar DLLs na memória do executável.
+
+--------------------------------------------------------------------------------
+COMO EXECUTAR:
+--------------------------------------------------------------------------------
+1. Com o jogo aberto (ou antes de abrir o jogo), dê dois cliques no arquivo:
+   "iniciar_overlay.bat"
+2. O aplicativo vai abrir uma janela de console preta confirmando que o HUD
+   está ativo e monitorando.
+3. No jogo, aponte a luneta ou binóculo para qualquer animal.
+4. O card de troféu aparecerá automaticamente ao lado do painel de avistamento!
+
+--------------------------------------------------------------------------------
+PERSONALIZAÇÃO (ARQUIVO config.json):
+--------------------------------------------------------------------------------
+Se você quiser ajustar o tamanho ou a posição do card na tela, abra o arquivo
+"config.json" no Bloco de Notas:
+- "pos_x_percent": porcentagem horizontal na tela (padrão: 0.68)
+- "pos_y_percent": porcentagem vertical na tela (padrão: 0.46)
+- "width" e "height": largura e altura do card
+- "language": "pt" (Português) ou "en" (Inglês)
+
+Boas caçadas e muitos Diamantes! 💎🎯
+================================================================================
