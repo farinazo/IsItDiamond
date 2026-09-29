@@ -1,98 +1,118 @@
-# 🦌 theHunter: Call of the Wild - Diamond Trophy Indicator & Companion HUD
+# 💎 IsItDiamond - theHunter: Call of the Wild Diamond Trophy Mod
 
-> **Mod Oficial de Indicador de Pontuação Diamante, Níveis e HUD Overlay para o jogo theHunter: Call of the Wild.**  
-> Compatível com todas as 19 reservas e 130 animais do jogo (incluindo as DLCs mais recentes como Salzwiesen Park, Sundarpatan e Intisuyu).
-
----
-
-## 🌟 Recursos Principais
-
-1. **Abordagem 1: Overlay HUD em Tempo Real (`COTW_Overlay_HUD/`)**
-   - Janela flutuante e translúcida (always-on-top) com atalho de teclado `F8`.
-   - Busca instantânea por nome do animal (Português ou Inglês).
-   - Calculadora integrada de probabilidade de Diamante com base na estimativa de avistamento (*Spotting*).
-   - Mostra a pontuação mínima para Diamante, nível máximo e a **Classe de Munição (1 a 9)** para não falhar o *Harvest Check*.
-
-2. **Abordagem 2: Mod Nativo no Jogo via Dropzone (`COTW_Diamond_Trophy_Mod/`)**
-   - Altera diretamente as strings do jogo ao avistar ou rastrear qualquer animal com binóculos ou lunetas.
-   - Disponível em **3 opções de exibição**:
-     * **Opção 1 (Padrão): Compacto sem a palavra Diamante**  
-       Ex: `CABRA-DA-MONTANHA [83.2+ | Nvl 5]` / `RED DEER [251.07+ | Lvl 9 (GO)]`
-     * **Opção 2: Linha Abaixo do Nome (com quebra de linha `\n`)**  
-       Ex: `CABRA-DA-MONTANHA`  
-       `[83.2+ | Nvl 5]`
-     * **Opção 3: Ultra Compacto (Apenas Pontuação)**  
-       Ex: `CABRA-DA-MONTANHA [83.2+]`
-   - Suporte multilíngue nativo (Português e Inglês atualizados).
-
-3. **Guia Visual Interativo & Calculadora (`Guia_Visual_Diamantes_COTW.html`)**
-   - Página interativa completa que pode ser aberta no navegador ou celular.
-   - Filtros por Reserva (todas as 19 reservas), Classe (1 a 9) e busca rápida.
-   - Calculadora interativa de medalhas (Bronze, Prata, Ouro, Diamante).
+> **Mod in-game nativo para theHunter: Call of the Wild que mostra a pontuação mínima de Diamante e nível máximo diretamente na luneta/binóculos ao avistar qualquer animal!**  
+> 100% auditado e validado para **todas as 19 reservas** e **130 animais** do jogo (incluindo as DLCs Salzwiesen Park, Sundarpatan e Intisuyu).
 
 ---
 
-## 🛠️ Instalação do Mod Nativo (Dropzone)
+## 🌟 O que o Mod faz?
 
-1. Extraia o conteúdo de `COTW_Diamond_Trophy_Mod.zip` (ou use a pasta `COTW_Diamond_Trophy_Mod/dropzone/`).
-2. Copie a pasta `dropzone` para a pasta raiz do seu jogo:
-   - **Steam:** `C:\Program Files (x86)\Steam\steamapps\common\theHunterCotW\`
-   - **Epic Games:** `C:\Program Files\Epic Games\theHunterCotW\`
-3. Ative o parâmetro de inicialização:
-   - **Steam:** Clique com botão direito em theHunter: COTW > *Propriedades* > *Opções de Inicialização* e cole:
+Ao avistar ou rastrear qualquer animal com binóculos ou mira no jogo, o mod exibe automaticamente ao lado do nome do animal a **pontuação mínima para Diamante** e seu **nível máximo de dificuldade**:
+
+* **Exemplo 1 (Geral):** `CABRA-DA-MONTANHA [83.2+ | Nvl 5]` / `RED DEER [251.07+ | Lvl 9 (GO)]`
+* **Exemplo 2 (GO / Great One):** Animais com variante *Great One* recebem a indicação especial `(GO)`!
+* **Exemplo 3 (Fichas Oficiais):** Todos os dados foram extraídos e corrigidos diretamente das tabelas de colheita oficiais e binários internos do jogo.
+
+---
+
+## 🎨 3 Opções de Visualização Disponíveis
+
+O mod já vem pronto para você escolher o estilo que preferir dentro da pasta `OPCOES_MOD/`:
+
+1. **Opção 1: Compacto sem a palavra Diamante (Padrão Instalado)**  
+   * Exibe: `CABRA-DA-MONTANHA [83.2+ | Nvl 5]` ou `RED DEER [251.07+ | Lvl 9 (GO)]`
+   * Remove a palavra "DIAMANTE: " para deixar a interface limpa e elegante.
+
+2. **Opção 2: Linha Abaixo do Nome (com quebra de linha `\n`)**  
+   * Exibe o nome do animal na primeira linha e as informações logo abaixo:  
+     `CABRA-DA-MONTANHA`  
+     `[83.2+ | Nvl 5]`
+
+3. **Opção 3: Ultra Compacto (Apenas Pontuação)**  
+   * Exibe apenas a pontuação mínima para Diamante:  
+     `CABRA-DA-MONTANHA [83.2+]`
+
+---
+
+## 🛠️ Como Instalar no Jogo
+
+### Passo 1: Copiar os arquivos
+1. Baixe ou use a pasta `COTW_Diamond_Trophy_Mod/dropzone/` (ou extraia `COTW_Diamond_Trophy_Mod.zip`).
+2. Copie a pasta `dropzone` para a pasta raiz onde seu theHunter está instalado:
+   * **Steam:** `C:\Program Files (x86)\Steam\steamapps\common\theHunterCotW\`
+   * **Epic Games:** `C:\Program Files\Epic Games\theHunterCotW\`
+
+*(Para trocar de opção, basta copiar a pasta `dropzone` de dentro de `OPCOES_MOD/<sua_opcao_preferida>/` e colar na pasta do jogo sobrescrevendo).*
+
+### Passo 2: Ativar no Inicializador do Jogo
+Para que o theHunter carregue arquivos modificados, é obrigatório adicionar o parâmetro de inicialização:
+
+* **Na Steam:**
+  1. Clique com o botão direito no **theHunter: Call of the Wild** na sua biblioteca da Steam e selecione **Propriedades...**
+  2. Na aba **Geral**, encontre o campo **Opções de Inicialização** no final da página.
+  3. Cole exatamente o seguinte comando:
      ```text
      --vfs-fs dropzone --vfs-archive patch_win64 --vfs-archive archives_win64 --vfs-fs.
      ```
-   - **Epic Games:** Abra a Epic Games > *Configurações* > role até o final em theHunter: COTW > marque *Linha de comando adicional* e cole o texto acima.
-4. Para trocar entre as 3 opções de visualização, basta copiar a pasta `dropzone` de dentro de `OPCOES_MOD/<opcao_desejada>/` e sobrescrever na pasta do jogo.
+
+* **Na Epic Games:**
+  1. Abra o inicializador da Epic Games e clique no seu perfil / **Configurações**.
+  2. Role até a seção de jogos instalados e clique em **theHunter: Call of the Wild**.
+  3. Marque a caixa **Linha de comando adicional** e cole:
+     ```text
+     --vfs-fs dropzone --vfs-archive patch_win64 --vfs-archive archives_win64 --vfs-fs.
+     ```
 
 ---
 
-## 💻 Instalação do Overlay HUD
+## 🧭 Guia Visual Interativo & Calculadora
 
-1. Entre na pasta `COTW_Overlay_HUD/`.
-2. Dê um duplo clique em `iniciar_overlay.bat`.
-3. Pressione **F8** para mostrar ou ocultar o painel durante o jogo.
-
----
-
-## 📊 Reservas Suportadas (130 Espécies Validadas)
-
-- **Layton Lake District**
-- **Hirschfelden Hunting Reserve**
-- **Medved-Taiga National Park**
-- **Vurhonga Savanna**
-- **Parque Fernando**
-- **Yukon Valley**
-- **Cuatro Colinas Game Reserve**
-- **Silver Ridge Peaks**
-- **Te Awaroa National Park**
-- **Rancho del Arroyo**
-- **Mississippi Acres Preserve**
-- **Revontuli Coast**
-- **New England Mountains**
-- **Emerald Coast**
-- **Sundarpatan**
-- **Salzwiesen Park**
-- **Askiy Ridge Hunting Preserve**
-- **Intisuyu**
-- **Tòrr nan Sithean**
+O projeto acompanha o arquivo **[`Guia_Visual_Diamantes_COTW.html`](COTW_Diamond_Trophy_Mod/Guia_Visual_Diamantes_COTW.html)**:
+* Abra no seu navegador do PC ou no celular.
+* Pesquise rapidamente por qualquer animal.
+* Filtre por Reserva ou Classe de Calibre (1 a 9).
+* Use a calculadora embutida para digitar a estimativa de peso/troféu que você avistou e saber na hora se tem chance real de ser Diamante, Ouro ou Prata!
 
 ---
 
-## 📝 Auditoria e Validação dos Dados
+## 🗺️ Reservas Auditadas e Suportadas (130 Espécies)
 
-Todas as pontuações foram auditadas e validadas diretamente contra a **Wiki Oficial do theHunter: Call of the Wild** e conferidas nos arquivos de dados binários internos do jogo (`codex_data.bin` e `animal_settings.bin`). Correções notáveis incluem:
-- *Urso-de-Óculos (Spectacled Bear)*: Corrigido de 26.45 para **20.45**
-- *Cabra-da-Montanha (Mountain Goat)*: Corrigido de 107.67 para **83.20**
-- *Codorna-dos-Restolhos (Stubble Quail)*: Corrigido de 238.0 para **126.0**
-- *Ganso-Pega (Magpie Goose)*: Corrigido de 3.85 para **3.02**
-- *Jaguatirica (Ocelot)*: Dificuldade máxima corrigida para **Nível 9 (Lendário)**
-- Atualizadas as classes de integridade e munição de 16 animais pós-rebalanceamento de armas.
+Todas as 19 reservas do jogo têm cobertura completa:
+* **Layton Lake District** (9 espécies)
+* **Hirschfelden Hunting Reserve** (9 espécies)
+* **Medved-Taiga National Park** (8 espécies)
+* **Vurhonga Savanna** (10 espécies)
+* **Parque Fernando** (8 espécies)
+* **Yukon Valley** (8 espécies)
+* **Cuatro Colinas Game Reserve** (11 espécies)
+* **Silver Ridge Peaks** (9 espécies)
+* **Te Awaroa National Park** (9 espécies)
+* **Rancho del Arroyo** (10 espécies)
+* **Mississippi Acres Preserve** (10 espécies)
+* **Revontuli Coast** (19 espécies)
+* **New England Mountains** (15 espécies)
+* **Emerald Coast** (14 espécies)
+* **Sundarpatan** (13 espécies)
+* **Salzwiesen Park** (15 espécies)
+* **Askiy Ridge Hunting Preserve** (19 espécies)
+* **Intisuyu** (14 espécies)
+* **Tòrr nan Sithean** (17 espécies)
 
 ---
 
-## 📄 Licença & Isenção de Responsabilidade
+## 🔬 Auditoria de Dados & Correções Notáveis
 
-* Este projeto é um mod e ferramenta de fã criado pela comunidade para aprimorar a experiência de jogo.
-* theHunter: Call of the Wild é marca registrada da Expansive Worlds AB e Avalanche Studios.
+Diferente de tabelas genéricas da internet que possuem erros de digitação e dados defasados, todas as 130 espécies foram auditadas contra os binários do jogo (`codex_data.bin`, `animal_settings.bin`) e as fichas oficiais de colheita:
+* **Urso-de-Óculos (*Spectacled Bear*)**: Corrigido de 26.45 para **`20.45`** (o site de origem havia errado a digitação).
+* **Cabra-da-Montanha (*Mountain Goat*)**: Corrigido de 107.67 para **`83.20`** (ajuste pós-TruRACs).
+* **Codorna-dos-Restolhos (*Stubble Quail*)**: Corrigido de 238.0 para **`126.0`** (o site havia duplicado da Bobwhite Quail).
+* **Ganso-Pega (*Magpie Goose*)**: Corrigido de 3.85 para **`3.02`** (o site havia duplicado do Greylag Goose).
+* **Jaguatirica (*Ocelot*)**: Nível máximo corrigido para **`Nível 9 (Lendário)`**.
+* Ajustes de precisão para *Galinhola-Euroasiática* (`41.03`), *Carneiro-Bighorn* (`196.93`), *Sambar* (`166.24`) e *Corço* (`81.86`).
+
+---
+
+## 📜 Licença e Isenção de Responsabilidade
+
+* Mod desenvolvido para a comunidade de fãs de *theHunter: Call of the Wild*.
+* theHunter: Call of the Wild® é marca registrada da Expansive Worlds AB e Avalanche Studios.

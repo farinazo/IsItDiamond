@@ -9,6 +9,10 @@ _BACKUP_ORIGINAIS/
 /creatures.bin
 /string_ids.stringlookup
 
+# Overlay HUD (WIP / excluded for now)
+COTW_Overlay_HUD/
+COTW_Overlay_HUD.zip
+
 # OS / Editor files
 .vscode/
 .idea/
