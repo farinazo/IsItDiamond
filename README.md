@@ -1,4 +1,4 @@
-# 💎 IsItDiamond - theHunter: Call of the Wild Diamond Trophy Mod
+# 💎 IsItDiamond? - theHunter: Call of the Wild Diamond Trophy Mod
 
 <div align="center">
 
