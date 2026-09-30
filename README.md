@@ -15,7 +15,7 @@
 ## 🌐 English Version
 
 > **Native in-game mod for *theHunter: Call of the Wild* that displays Diamond minimum trophy requirements and max difficulty levels directly through your binoculars and scopes upon spotting any animal!**  
-> 100% audited and verified for **all 19 reserves** and **130 species** in the game (including Salzwiesen Park, Sundarpatan, and Intisuyu).
+> Covers **all 19 reserves** and **130 species** in the game (including Salzwiesen Park, Sundarpatan, and Intisuyu).
 
 📢 **Notice:** This mod will soon be available for direct download on **Nexus Mods**!
 
@@ -26,26 +26,29 @@
 When spotting or tracking any animal with binoculars, rangefinders, or rifle scopes, the mod dynamically displays the **minimum score required for Diamond** and the species' **max difficulty level** directly next to or below the animal's name:
 
 * **Standard Example:** `MOUNTAIN GOAT [83.2+ | Lvl 5]` / `RED DEER [251.07+ | Lvl 9 (GO)]`
-* **Great One Indicator:** Animals with a known *Great One* variant feature the special `(GO)` tag!
-* **100% Verified Harvest Data:** All thresholds were extracted and cross-checked against official game harvest tables and internal game files (`codex_data.bin`).
+* **Great One Indicator:** Animals with an available *Great One* variant feature the special `(GO)` tag!
+* **Accurate Harvest Data:** All thresholds reflect official game harvest tables and current TruRAC scoring systems.
 
 ---
 
 ### 🎨 3 Visual Display Styles Included
 
-The mod package comes with 3 ready-to-use variants located in the `OPCOES_MOD/` directory:
+The mod comes with 3 ready-to-use variants located in the `MOD_OPTIONS/` directory:
 
-1. **Option 1: Compact without "Diamond" (Default / Pre-installed)**  
+1. **Option 1: Compact without "Diamond" (Default / Pre-installed in `dropzone`)**  
+   * Folder: `MOD_OPTIONS/1_COMPACT_NO_PREFIX/`  
    * Displays: `MOUNTAIN GOAT [83.2+ | Lvl 5]` or `RED DEER [251.07+ | Lvl 9 (GO)]`  
-   * Removes redundant prefixes for a sleek, clean HUD.
+   * Keeps the spotting HUD sleek and minimal.
 
 2. **Option 2: Newline Below Name (Clean Subtitle)**  
+   * Folder: `MOD_OPTIONS/2_NEWLINE_BELOW_NAME/`  
    * Displays the animal name on the top line and trophy requirements on the line below:  
      `MOUNTAIN GOAT`  
      `[83.2+ | Lvl 5]`
 
 3. **Option 3: Ultra Compact (Score Only)**  
-   * Displays only the minimum diamond score:  
+   * Folder: `MOD_OPTIONS/3_SCORE_ONLY/`  
+   * Displays only the minimum diamond score in brackets:  
      `MOUNTAIN GOAT [83.2+]`
 
 ---
@@ -58,10 +61,10 @@ The mod package comes with 3 ready-to-use variants located in the `OPCOES_MOD/` 
    * **Steam:** `C:\Program Files (x86)\Steam\steamapps\common\theHunterCotW\`
    * **Epic Games:** `C:\Program Files\Epic Games\theHunterCotW\`
 
-*(To switch between visual options, copy the `dropzone` folder from inside `OPCOES_MOD/<chosen_option>/` into your game root folder, overwriting when prompted).*
+*(To switch between visual options, copy the `dropzone` folder from inside `MOD_OPTIONS/<chosen_option>/` into your game root folder, overwriting when prompted).*
 
 #### Step 2: Enable Launch Options in Steam / Epic Games
-To allow *theHunter: Call of the Wild* to load modified game files, you **must** add the engine launch argument:
+To allow *theHunter: Call of the Wild* to load modified game files, add the engine launch argument:
 
 * **On Steam:**
   1. Right-click **theHunter: Call of the Wild** in your Steam Library and select **Properties...**
@@ -83,7 +86,7 @@ To allow *theHunter: Call of the Wild* to load modified game files, you **must**
 
 ### 🧭 Interactive HTML Guide & Trophy Calculator
 
-The mod includes **[`Guia_Visual_Diamantes_COTW.html`](COTW_Diamond_Trophy_Mod/Guia_Visual_Diamantes_COTW.html)**:
+The mod package includes **[`Guia_Visual_Diamantes_COTW.html`](COTW_Diamond_Trophy_Mod/Guia_Visual_Diamantes_COTW.html)**:
 * Open in any browser on your PC or smartphone while hunting.
 * Instant search across all 130 species in both English and Portuguese.
 * Filter by Reserve or Weapon Integrity Class (1–9).
@@ -91,7 +94,7 @@ The mod includes **[`Guia_Visual_Diamantes_COTW.html`](COTW_Diamond_Trophy_Mod/G
 
 ---
 
-### 🗺️ Full Reserve Coverage (130 Audited Species)
+### 🗺️ Full Reserve Coverage (130 Species)
 
 Complete coverage for all 19 official reserves:
 * **Layton Lake District** (9 species)
@@ -116,24 +119,12 @@ Complete coverage for all 19 official reserves:
 
 ---
 
-### 🔬 Rigorous Data Audit & Critical Corrections
-
-Unlike outdated internet charts with typos and pre-TruRAC ratings, all 130 species were verified against official harvest screens and game engine tables (`codex_data.bin`):
-* **Spectacled Bear (*Urso-de-Óculos*)**: Corrected from `26.45` to **`20.45`** (fixed widespread website typo).
-* **Mountain Goat (*Cabra-da-Montanha*)**: Corrected from `107.67` to **`83.20`** (post-TruRACs scoring).
-* **Stubble Quail (*Codorna-dos-Restolhos*)**: Corrected from `238.0` to **`126.0`** (fixed copy-paste error from Bobwhite Quail).
-* **Magpie Goose (*Ganso-Pega*)**: Corrected from `3.85` to **`3.02`** (fixed copy-paste error from Greylag Goose).
-* **Ocelot (*Jaguatirica*)**: Max level corrected to **`Level 9 (Legendary)`** (confirmed predator class).
-* Fine-tuned precision values for *Eurasian Woodcock* (`41.03`), *Rocky Mountain Bighorn Sheep* (`196.93`), *Sambar* (`166.24`), and *Roe Deer* (`81.86`).
-
----
-
 <br>
 
 ## 🇧🇷 Versão em Português
 
 > **Mod in-game nativo para *theHunter: Call of the Wild* que mostra a pontuação mínima de Diamante e nível máximo diretamente na luneta/binóculos ao avistar qualquer animal!**  
-> 100% auditado e validado para **todas as 19 reservas** e **130 animais** do jogo (incluindo as DLCs Salzwiesen Park, Sundarpatan e Intisuyu).
+> Cobre **todas as 19 reservas** e **130 animais** do jogo (incluindo as DLCs Salzwiesen Park, Sundarpatan e Intisuyu).
 
 📢 **Aviso:** Em breve este mod estará disponível para download direto também no **Nexus Mods**!
 
@@ -145,24 +136,27 @@ Ao avistar ou rastrear qualquer animal com binóculos ou mira no jogo, o mod exi
 
 * **Exemplo Padrão:** `CABRA-DA-MONTANHA [83.2+ | Nvl 5]` / `VEADO-VERMELHO [251.07+ | Nvl 9 (GO)]`
 * **Indicação de Great One:** Animais com variante *Great One* recebem a indicação especial `(GO)`!
-* **Fichas Oficiais:** Todos os dados foram extraídos e corrigidos diretamente das tabelas de colheita oficiais e binários internos do jogo (`codex_data.bin`).
+* **Dados Oficiais e Atualizados:** Todos os valores refletem os sistemas de pontuação oficiais e TruRACs do jogo.
 
 ---
 
 ### 🎨 3 Opções de Visualização Disponíveis
 
-O mod já vem pronto para você escolher o estilo que preferir dentro da pasta `OPCOES_MOD/`:
+O mod já vem pronto para você escolher o estilo que preferir dentro da pasta `MOD_OPTIONS/`:
 
-1. **Opção 1: Compacto sem a palavra Diamante (Padrão Instalado)**  
+1. **Opção 1: Compacto sem a palavra Diamante (Padrão Instalado na pasta `dropzone`)**  
+   * Pasta: `MOD_OPTIONS/1_COMPACT_NO_PREFIX/`  
    * Exibe: `CABRA-DA-MONTANHA [83.2+ | Nvl 5]` ou `VEADO-VERMELHO [251.07+ | Nvl 9 (GO)]`  
-   * Remove a palavra "DIAMANTE: " para deixar a interface limpa e elegante.
+   * Deixa a interface limpa e rápida de ler.
 
 2. **Opção 2: Linha Abaixo do Nome (com quebra de linha `\n`)**  
+   * Pasta: `MOD_OPTIONS/2_NEWLINE_BELOW_NAME/`  
    * Exibe o nome do animal na primeira linha e as informações logo abaixo:  
      `CABRA-DA-MONTANHA`  
      `[83.2+ | Nvl 5]`
 
 3. **Opção 3: Ultra Compacto (Apenas Pontuação)**  
+   * Pasta: `MOD_OPTIONS/3_SCORE_ONLY/`  
    * Exibe apenas a pontuação mínima para Diamante:  
      `CABRA-DA-MONTANHA [83.2+]`
 
@@ -176,7 +170,7 @@ O mod já vem pronto para você escolher o estilo que preferir dentro da pasta `
    * **Steam:** `C:\Program Files (x86)\Steam\steamapps\common\theHunterCotW\`
    * **Epic Games:** `C:\Program Files\Epic Games\theHunterCotW\`
 
-*(Para trocar de opção, basta copiar a pasta `dropzone` de dentro de `OPCOES_MOD/<sua_opcao_preferida>/` e colar na pasta do jogo sobrescrevendo).*
+*(Para trocar de opção, basta copiar a pasta `dropzone` de dentro de `MOD_OPTIONS/<sua_opcao_preferida>/` e colar na pasta do jogo sobrescrevendo).*
 
 #### Passo 2: Ativar no Inicializador do Jogo
 Para que o theHunter carregue arquivos modificados, é obrigatório adicionar o parâmetro de inicialização:

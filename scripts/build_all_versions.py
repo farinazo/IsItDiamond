@@ -132,28 +132,28 @@ base_mod_dir = r'D:\coding\TheHunterCOTWTrophyChart\COTW_Diamond_Trophy_Mod'
 
 # Generate Versão 1: Compacta (Also sets as the default dropzone)
 generate_mod_version(
-    "1. Compacta (Sem 'DIAMANTE:')",
+    "1. Compact (No 'DIAMOND:')",
     fmt_compact,
     os.path.join(base_mod_dir, "dropzone", "settings", "hp_settings", "string_ids.stringlookup")
 )
 generate_mod_version(
-    "1. Compacta (Sem 'DIAMANTE:') [Pasta Opção]",
+    "1. Compact (No 'DIAMOND:') [Option Folder]",
     fmt_compact,
-    os.path.join(base_mod_dir, "OPCOES_MOD", "1_COMPACTO_SEM_DIAMANTE", "dropzone", "settings", "hp_settings", "string_ids.stringlookup")
+    os.path.join(base_mod_dir, "MOD_OPTIONS", "1_COMPACT_NO_PREFIX", "dropzone", "settings", "hp_settings", "string_ids.stringlookup")
 )
 
 # Generate Versão 2: Nova Linha Abaixo do Nome
 generate_mod_version(
-    "2. Linha Abaixo do Nome (com quebra de linha)",
+    "2. Newline Below Name",
     fmt_newline,
-    os.path.join(base_mod_dir, "OPCOES_MOD", "2_LINHA_ABAIXO_DO_NOME", "dropzone", "settings", "hp_settings", "string_ids.stringlookup")
+    os.path.join(base_mod_dir, "MOD_OPTIONS", "2_NEWLINE_BELOW_NAME", "dropzone", "settings", "hp_settings", "string_ids.stringlookup")
 )
 
 # Generate Versão 3: Ultra Compacto (Apenas Pontuação)
 generate_mod_version(
-    "3. Ultra Compacto (Apenas Pontuação)",
+    "3. Score Only",
     fmt_score_only,
-    os.path.join(base_mod_dir, "OPCOES_MOD", "3_APENAS_PONTUACAO", "dropzone", "settings", "hp_settings", "string_ids.stringlookup")
+    os.path.join(base_mod_dir, "MOD_OPTIONS", "3_SCORE_ONLY", "dropzone", "settings", "hp_settings", "string_ids.stringlookup")
 )
 
 print("\nALL VERSIONS GENERATED SUCCESSFULLY!")

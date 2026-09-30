@@ -6,18 +6,20 @@ Este mod altera nativamente o HUD de todos os 130 animais do jogo para exibir
 a pontuação de DIAMANTE e o NÍVEL MÁXIMO ao avistar pela luneta ou binóculo.
 
 --------------------------------------------------------------------------------
-ESCOLHA A SUA VERSÃO PREFERIDA (PASTA "OPCOES_MOD"):
+ESCOLHA A SUA VERSÃO PREFERIDA (PASTA "MOD_OPTIONS"):
 --------------------------------------------------------------------------------
 
-Dentro da pasta "OPCOES_MOD" você tem 3 opções prontas:
+Dentro da pasta "MOD_OPTIONS" você tem 3 opções prontas:
 
 1. OPÇÃO 1 - COMPACTO (PADRÃO JÁ INSTALADO NA PASTA "dropzone"):
+   Pasta: MOD_OPTIONS/1_COMPACT_NO_PREFIX
    Removeu a palavra "DIAMANTE:" para não alongar o nome na tela.
    Exemplo:
      VEADO-VERMELHO [251.07+ | Nvl 9 (GO)]
      RED DEER [251.07+ | Lvl 9 (GO)]
 
 2. OPÇÃO 2 - LINHA ABAIXO DO NOME:
+   Pasta: MOD_OPTIONS/2_NEWLINE_BELOW_NAME
    Usa quebra de linha (\n) para que a pontuação fique abaixo do nome do animal,
    deixando o nome limpo na primeira linha e os requisitos na linha de baixo!
    Exemplo:
@@ -25,6 +27,7 @@ Dentro da pasta "OPCOES_MOD" você tem 3 opções prontas:
      [251.07+ | Nvl 9 (GO)]
 
 3. OPÇÃO 3 - ULTRA COMPACTO (SÓ A PONTUAÇÃO):
+   Pasta: MOD_OPTIONS/3_SCORE_ONLY
    Apenas o valor mínimo do Diamante entre colchetes.
    Exemplo:
      VEADO-VERMELHO [251.07+]
@@ -38,7 +41,7 @@ COMO INSTALAR
 
 PASSO 1: Copiar a pasta "dropzone"
   - Por padrão, a pasta "dropzone" da raiz já está com a OPÇÃO 1 (Compacta).
-  - Se você quiser a OPÇÃO 2 ou 3, basta abrir a pasta correspondente em "OPCOES_MOD"
+  - Se você quiser a OPÇÃO 2 ou 3, basta abrir a pasta correspondente em "MOD_OPTIONS"
     e copiar a pasta "dropzone" de lá.
   - Cole a pasta "dropzone" na pasta principal do seu jogo na Steam:
     D:\SteamLibrary\steamapps\common\theHunterCotW\

@@ -6,18 +6,20 @@ This mod natively updates the in-game HUD for all 130 species to show their
 minimum DIAMOND trophy score requirement and species MAX LEVEL when spotting.
 
 --------------------------------------------------------------------------------
-CHOOSE YOUR PREFERRED VERSION ("OPCOES_MOD" FOLDER):
+CHOOSE YOUR PREFERRED VERSION ("MOD_OPTIONS" FOLDER):
 --------------------------------------------------------------------------------
 
-Inside "OPCOES_MOD", you have 3 ready-to-use choices:
+Inside "MOD_OPTIONS", you have 3 ready-to-use choices:
 
 1. OPTION 1 - COMPACT (DEFAULT INSTALLED IN "dropzone"):
+   Folder: MOD_OPTIONS/1_COMPACT_NO_PREFIX
    Removes the word "DIAMOND:" to keep the species name concise.
    Example:
      RED DEER [251.07+ | Lvl 9 (GO)]
      VEADO-VERMELHO [251.07+ | Nvl 9 (GO)]
 
 2. OPTION 2 - NEWLINE BELOW NAME:
+   Folder: MOD_OPTIONS/2_NEWLINE_BELOW_NAME
    Uses a newline (\n) so trophy requirements appear on a dedicated second line
    directly below the species name!
    Example:
@@ -25,6 +27,7 @@ Inside "OPCOES_MOD", you have 3 ready-to-use choices:
      [251.07+ | Lvl 9 (GO)]
 
 3. OPTION 3 - ULTRA COMPACT (SCORE ONLY):
+   Folder: MOD_OPTIONS/3_SCORE_ONLY
    Displays only the minimum diamond score in brackets.
    Example:
      RED DEER [251.07+]
@@ -38,7 +41,7 @@ HOW TO INSTALL
 
 STEP 1: Copy the "dropzone" folder
   - By default, the root "dropzone" folder is loaded with OPTION 1 (Compact).
-  - If you prefer Option 2 or 3, open the corresponding folder inside "OPCOES_MOD"
+  - If you prefer Option 2 or 3, open the corresponding folder inside "MOD_OPTIONS"
     and copy that "dropzone" folder instead.
   - Paste the "dropzone" folder into your main game directory:
     Steam: ...\steamapps\common\theHunterCotW\
